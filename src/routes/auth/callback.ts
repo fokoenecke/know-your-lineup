@@ -1,11 +1,5 @@
 import type { RequestEvent } from '@sveltejs/kit';
-import { config } from 'dotenv';
-config();
-
-const BASE_URL = process.env.BASE_URL;
-const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
-const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
-const REDIRECT_URL = process.env.SPOTIFY_REDIRECT_URL || '';
+import { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, BASE_URL } from '$env/static/private';
 
 export async function GET(event: RequestEvent) {
 	const code = event.url.searchParams.get('code') || '';
@@ -13,7 +7,7 @@ export async function GET(event: RequestEvent) {
 
 	const params = {
 		code: code,
-		redirect_uri: REDIRECT_URL,
+		redirect_uri: BASE_URL + '/auth/callback',
 		grant_type: 'authorization_code'
 	};
 
@@ -25,7 +19,8 @@ export async function GET(event: RequestEvent) {
 		credentials: 'same-origin',
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded',
-			Authorization: 'Basic ' + Buffer.from(CLIENT_ID + ':' + CLIENT_SECRET).toString('base64')
+			Authorization:
+				'Basic ' + Buffer.from(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET).toString('base64')
 		},
 		body: form
 	});

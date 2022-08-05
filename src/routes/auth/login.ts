@@ -1,9 +1,5 @@
 import type { RequestEvent } from '@sveltejs/kit';
-import { config } from 'dotenv';
-config();
-
-const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID || '';
-const REDIRECT_URL = process.env.SPOTIFY_REDIRECT_URL || '';
+import { SPOTIFY_CLIENT_ID, BASE_URL } from '$env/static/private';
 
 const generateRandomString = (len: number) => {
 	return Math.random()
@@ -12,14 +8,15 @@ const generateRandomString = (len: number) => {
 };
 
 export async function GET(event: RequestEvent) {
+	console.log(SPOTIFY_CLIENT_ID);
 	const state = generateRandomString(16);
 	const scope = 'user-read-private user-top-read user-read-email streaming';
 
 	const params = {
 		response_type: 'code',
-		client_id: CLIENT_ID,
+		client_id: SPOTIFY_CLIENT_ID,
 		scope: scope,
-		redirect_uri: REDIRECT_URL,
+		redirect_uri: BASE_URL + '/auth/callback',
 		state: state
 	};
 

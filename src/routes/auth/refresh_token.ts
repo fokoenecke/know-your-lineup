@@ -1,10 +1,5 @@
 import type { RequestEvent } from '@sveltejs/kit';
-import { config } from 'dotenv';
-config();
-
-const BASE_URL = process.env.BASE_URL;
-const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
-const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
+import { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, BASE_URL } from '$env/static/private';
 
 export async function GET(event: RequestEvent) {
 	const refreshToken = event.url.searchParams.get('refresh_token') || '';
@@ -22,7 +17,8 @@ export async function GET(event: RequestEvent) {
 		credentials: 'same-origin',
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded',
-			Authorization: 'Basic ' + Buffer.from(CLIENT_ID + ':' + CLIENT_SECRET).toString('base64')
+			Authorization:
+				'Basic ' + Buffer.from(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET).toString('base64')
 		},
 		body: form
 	});
