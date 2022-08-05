@@ -117,7 +117,7 @@
 	</div>
 	<Player bind:currentTrack />
 
-	{#if true}
+	{#if false}
 		<textarea bind:value={acts} cols="30" rows="10" />
 		<button
 			on:click={() => {
