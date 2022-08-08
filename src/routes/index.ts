@@ -24,7 +24,7 @@ export async function GET(event: RequestEvent) {
 	// 	}
 	// });
 
-	const yearGigs = { 2022: ['hurricane', 'wacken'] };
+	const yearGigs = { 2022: ['hurricane', 'wacken', 'reeperbahn'] };
 
 	return { body: { gigs: yearGigs } };
 }

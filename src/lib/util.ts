@@ -13,6 +13,9 @@ export async function searchForActs(acts: string) {
 		try {
 			const artist = await searchForArtist(act);
 			await sleep(300);
+			if (artist.name.toLowerCase() !== act.toLowerCase()) {
+				console.log('ARTIST NAME NOT MATCHING INPUT!!!');
+			}
 			console.log(artist);
 			foundArtists.push(artist);
 		} catch (err) {

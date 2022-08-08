@@ -1,0 +1,3855 @@
+{
+	"acts": [
+		{
+			"spotifyId": "50sSN9E5i4DJzYDclAXlSo",
+			"name": "Anna Calvi",
+			"popularity": 42,
+			"genres": ["art pop", "chamber psych"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf2b1a44faf4617306c2d5bec",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f2b1a44faf4617306c2d5bec",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f2b1a44faf4617306c2d5bec",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5XMyhVhi5ZN2pi0Qwi1zXS",
+			"name": "Joy Crookes",
+			"popularity": 59,
+			"genres": ["alternative r&b", "indie soul", "uk contemporary r&b"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebda9c901bfb1d6c545ed68c47",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174da9c901bfb1d6c545ed68c47",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178da9c901bfb1d6c545ed68c47",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2jmpnuwn52LqrQASBlyQGJ",
+			"name": "Mine",
+			"popularity": 45,
+			"genres": ["german indie", "german pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebfa733a1da479c65a718789b4",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174fa733a1da479c65a718789b4",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178fa733a1da479c65a718789b4",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5uy67fWgovgNdbkP1kAf7m",
+			"name": "Warhaus",
+			"popularity": 45,
+			"genres": ["belgian indie", "belgian rock"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebdb20e7ba91aa47efc79000b6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174db20e7ba91aa47efc79000b6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178db20e7ba91aa47efc79000b6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2ic3GGGmkixOZP4qnakSA8",
+			"name": "alyona alyona",
+			"popularity": 48,
+			"genres": ["ukrainian hip hop", "ukrainian pop", "ukrainian rock"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb951d2a8f6e07420fc64a791",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b951d2a8f6e07420fc64a791",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b951d2a8f6e07420fc64a791",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "22ojy4H4ZVpowC4lRRC8In",
+			"name": "Destroyer",
+			"popularity": 44,
+			"genres": [
+				"alternative dance",
+				"alternative rock",
+				"art pop",
+				"chamber pop",
+				"chamber psych",
+				"chillwave",
+				"dream pop",
+				"electronica",
+				"garage psych",
+				"indie pop",
+				"indie rock",
+				"modern rock",
+				"noise pop",
+				"vancouver indie"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5a06b396f61778ebc0747b55",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745a06b396f61778ebc0747b55",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785a06b396f61778ebc0747b55",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3u9rbdcmA6CxjxOAkjaeFr",
+			"name": "Kokoroko",
+			"popularity": 47,
+			"genres": ["british jazz", "indie jazz", "indie soul"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5e9a37cfe0bbf1ce6300d33e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745e9a37cfe0bbf1ce6300d33e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785e9a37cfe0bbf1ce6300d33e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3mWQ5gAWWhoPDNHyAEC5Hz",
+			"name": "Roy Bianco & Die Abbrunzati Boys",
+			"popularity": 49,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebfa0e88644f28cd0f2fe97f30",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174fa0e88644f28cd0f2fe97f30",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178fa0e88644f28cd0f2fe97f30",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2iIBcGbTd24FtVwuP9o2OT",
+			"name": "Whispering Sons",
+			"popularity": 30,
+			"genres": ["belgian indie rock", "belgian new wave", "dark post-punk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc1b82c2cb44d20dcae147873",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c1b82c2cb44d20dcae147873",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c1b82c2cb44d20dcae147873",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "11260Smss09lExMicvRPeO",
+			"name": "Abby Roberts",
+			"popularity": 39,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb27f221d7eb418ba9de8b46b7",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517427f221d7eb418ba9de8b46b7",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17827f221d7eb418ba9de8b46b7",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4RbGljqjA1uq3D5Og5AE56",
+			"name": "ALBI X",
+			"popularity": 30,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5fec8c468f42fd61595ad1c5",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745fec8c468f42fd61595ad1c5",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785fec8c468f42fd61595ad1c5",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5kdYrM3h2sB1Eid5tDf6Hk",
+			"name": "Alex Lahey",
+			"popularity": 40,
+			"genres": ["australian garage punk", "australian indie", "australian pop", "melbourne indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb103f0fa5ca74d48f0639f980",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174103f0fa5ca74d48f0639f980",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178103f0fa5ca74d48f0639f980",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "11OTiI6xYGpLxS3aoVkI9e",
+			"name": "Anna Erhard",
+			"popularity": 26,
+			"genres": ["swiss indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb2922ed04c475880a7b0f6b6f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051742922ed04c475880a7b0f6b6f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1782922ed04c475880a7b0f6b6f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1Wzrxc6IyOzgMhxtaUeLZc",
+			"name": "Banji",
+			"popularity": 24,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb1b6c0ea7ddf32f41a7994ad5",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051741b6c0ea7ddf32f41a7994ad5",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1781b6c0ea7ddf32f41a7994ad5",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0QJaBD8Piha8IEwKtNpBOB",
+			"name": "Billy Nomates",
+			"popularity": 39,
+			"genres": ["chamber psych"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebadc466aea958c3a548840725",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174adc466aea958c3a548840725",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178adc466aea958c3a548840725",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4TrfxRxjCvOFprX1W2V8k1",
+			"name": "Black Orchid Empire",
+			"popularity": 27,
+			"genres": ["prog metal"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebddeca1a8f5366ff533e95f16",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174ddeca1a8f5366ff533e95f16",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178ddeca1a8f5366ff533e95f16",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2RMn57qMY0yhUiIYdtUXlh",
+			"name": "Blaue Blume",
+			"popularity": 29,
+			"genres": ["danish alternative rock", "danish pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4ecc224a111af483e0c27cbc",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744ecc224a111af483e0c27cbc",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784ecc224a111af483e0c27cbc",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5ZeRq1tqf4t8fcdFdjmlQZ",
+			"name": "BROCKHOFF",
+			"popularity": 27,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb0bbb075f401d9d652a152a7a",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051740bbb075f401d9d652a152a7a",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1780bbb075f401d9d652a152a7a",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0JXwYf8x27ZfMO2gGuh6HO",
+			"name": "Brooke Combe",
+			"popularity": 32,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcaa46090aa88d622d1253896",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174caa46090aa88d622d1253896",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178caa46090aa88d622d1253896",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3nwKi37CnuKq5BcPr267h3",
+			"name": "Cartel Madras",
+			"popularity": 32,
+			"genres": ["alberta hip hop", "indie hip hop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4ff5100a4a575c4e1536db6d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744ff5100a4a575c4e1536db6d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784ff5100a4a575c4e1536db6d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2K61iAekpIr3wFneBSBwe5",
+			"name": "Cash Savage and the Last Drinks",
+			"popularity": 25,
+			"genres": [
+				"australian alternative rock",
+				"australian garage punk",
+				"australian indie",
+				"melbourne indie"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4c311724349dd4f74b47481e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744c311724349dd4f74b47481e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784c311724349dd4f74b47481e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2413I9w4sRbBz4zi5zgwjX",
+			"name": "Cassia",
+			"popularity": 49,
+			"genres": ["manchester indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf336e716ef0eddfd137bd104",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f336e716ef0eddfd137bd104",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f336e716ef0eddfd137bd104",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0IIPUgyQvA9eRyICwMEOA9",
+			"name": "Charles Watson",
+			"popularity": 27,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9067c000b42dfc035c6a7efd",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749067c000b42dfc035c6a7efd",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789067c000b42dfc035c6a7efd",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0ubGY2CcC0tvR0eE6hJaT8",
+			"name": "Charlie Burg",
+			"popularity": 59,
+			"genres": ["ann arbor indie", "bedroom soul", "indie pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb45f2a21773fd1a624ed36514",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517445f2a21773fd1a624ed36514",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17845f2a21773fd1a624ed36514",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4mp6ypwuMpi80OEpFIVJNn",
+			"name": "Charlotte Brandi",
+			"popularity": 26,
+			"genres": ["german indie folk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebbe1815e488b3d3f827076dc7",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174be1815e488b3d3f827076dc7",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178be1815e488b3d3f827076dc7",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3U58oqsrbpLo0EbARkZrBW",
+			"name": "Chartreuse",
+			"popularity": 33,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4fddd8e7545b62b7b97b9415",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744fddd8e7545b62b7b97b9415",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784fddd8e7545b62b7b97b9415",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3vQtRdN3v7tuRnKaOjNzU0",
+			"name": "Christin Nichols",
+			"popularity": 27,
+			"genres": ["german indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb128b50392c2d2dc8c61d6645",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174128b50392c2d2dc8c61d6645",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178128b50392c2d2dc8c61d6645",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4NSzuIc0eGOftqr0tEOhJk",
+			"name": "ClockClock",
+			"popularity": 60,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4b92499b475019bebb4ed11f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744b92499b475019bebb4ed11f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784b92499b475019bebb4ed11f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3Fl31gc0mEUC2H0JWL1vic",
+			"name": "Paula Hartmann",
+			"popularity": 50,
+			"genres": ["german hip hop", "german pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eba24f928af7de66922fb575e0",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174a24f928af7de66922fb575e0",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178a24f928af7de66922fb575e0",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2AqDA65BH1X8DI4LsFqiEJ",
+			"name": "Cosma Joy",
+			"popularity": 31,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd7d6a7c5df82de76a497dbee",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d7d6a7c5df82de76a497dbee",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d7d6a7c5df82de76a497dbee",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2xtmoxSauQs0TQFUoHmbfy",
+			"name": "Crawlers",
+			"popularity": 52,
+			"genres": ["indie pop", "warrington indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc949b682d27e2ae8a8a2d2a4",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c949b682d27e2ae8a8a2d2a4",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c949b682d27e2ae8a8a2d2a4",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1GSLjV7vq6pSsNAEFwWSbn",
+			"name": "Dana Gavanski",
+			"popularity": 26,
+			"genres": ["art pop", "chamber psych", "indie folk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3d1def49aadb35acd6f8710e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743d1def49aadb35acd6f8710e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783d1def49aadb35acd6f8710e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5wYcbpyGZGlUOiNpbLWZTo",
+			"name": "Das Paradies",
+			"popularity": 36,
+			"genres": ["german indie", "leipzig indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf0dc03b13b610fd86333e304",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f0dc03b13b610fd86333e304",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f0dc03b13b610fd86333e304",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2VjvDoPMZvWItuivXdoe5Y",
+			"name": "Denise Chaila",
+			"popularity": 35,
+			"genres": ["irish hip hop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebbeb62994ccf80cd55d46e358",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174beb62994ccf80cd55d46e358",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178beb62994ccf80cd55d46e358",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3ZmYIpehQLti5et52hR6fS",
+			"name": "Die Wände",
+			"popularity": 7,
+			"genres": ["german post-punk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd850d8c2dffa0c06c3c7bb15",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d850d8c2dffa0c06c3c7bb15",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d850d8c2dffa0c06c3c7bb15",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3oSKgWx1dqjhidhnhpGbfJ",
+			"name": "DITZ",
+			"popularity": 28,
+			"genres": ["uk post-punk revival"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb1b65f1d1c279685b526d63e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b1b65f1d1c279685b526d63e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b1b65f1d1c279685b526d63e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2p3WhDRwfMseVi8f04ODpd",
+			"name": "Donna Blue",
+			"popularity": 28,
+			"genres": ["dutch indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3a20cb02137ae7526d29cfe1",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743a20cb02137ae7526d29cfe1",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783a20cb02137ae7526d29cfe1",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4LOM7NzyrZvlGSYPFDsnTk",
+			"name": "Dylan",
+			"popularity": 57,
+			"genres": ["alt z", "pop", "uk pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8e6202630dd631584670ba30",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748e6202630dd631584670ba30",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788e6202630dd631584670ba30",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7wwdO3koJONTrS5TtFJ8RN",
+			"name": "eee gee",
+			"popularity": 30,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9ed55a6bc09e106be66060bd",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749ed55a6bc09e106be66060bd",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789ed55a6bc09e106be66060bd",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0ynzbXwyCzxicMKHBoOkSH",
+			"name": "EKKSTACY",
+			"popularity": 58,
+			"genres": ["emo rap", "sad rap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc1e71241b231a945134f2a4f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c1e71241b231a945134f2a4f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c1e71241b231a945134f2a4f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6ztKrKekC3nb3nCBoy9HUt",
+			"name": "ENNIO",
+			"popularity": 46,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd81ffdf68f7ed0c997adaea5",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d81ffdf68f7ed0c997adaea5",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d81ffdf68f7ed0c997adaea5",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2OWXhbFm7SsZN0DXAD7iBg",
+			"name": "Etta Marcus",
+			"popularity": 36,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8075de86ea5eb9448edc3768",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748075de86ea5eb9448edc3768",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788075de86ea5eb9448edc3768",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2SMBaAG61s9mtyJ0eeXSWx",
+			"name": "Eydís Evensen",
+			"popularity": 47,
+			"genres": ["compositional ambient", "neo-classical"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb58dfe3dce2ce8bd08da2abbd",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517458dfe3dce2ce8bd08da2abbd",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17858dfe3dce2ce8bd08da2abbd",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0KmBIwN1qmQbXpR4wtJX88",
+			"name": "Fieh",
+			"popularity": 33,
+			"genres": [
+				"norwegian contemporary jazz",
+				"norwegian indie",
+				"norwegian pop",
+				"scandinavian r&b"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9260033c1d0e0214be41f0ba",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749260033c1d0e0214be41f0ba",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789260033c1d0e0214be41f0ba",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0qrCon6GmV92JY5vNALLif",
+			"name": "Francis of Delirium",
+			"popularity": 28,
+			"genres": ["luxembourgian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb48a71d18f8945b0116822e9e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517448a71d18f8945b0116822e9e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17848a71d18f8945b0116822e9e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6MJKlN8ya42Agsw3iQZs6e",
+			"name": "French 79",
+			"popularity": 51,
+			"genres": ["electronica", "french indie pop", "french indietronica", "new french touch"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcc01bcc6eb718e23aa11bf51",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174cc01bcc6eb718e23aa11bf51",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178cc01bcc6eb718e23aa11bf51",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0lqPfG8vAR30UX3cWDbCEn",
+			"name": "Friedberg",
+			"popularity": 37,
+			"genres": ["austrian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb35e599fae432329550cbfad6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517435e599fae432329550cbfad6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17835e599fae432329550cbfad6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5U7rIQxm8yEEXbJB3bl7JE",
+			"name": "George O'Hanlon",
+			"popularity": 19,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcf72ade83a4c95829b58153e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174cf72ade83a4c95829b58153e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178cf72ade83a4c95829b58153e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7EkzQPP0cgt2qCnXUg6PHj",
+			"name": "Ghostly Kisses",
+			"popularity": 50,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc4114dc6e508e26e82652075",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c4114dc6e508e26e82652075",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c4114dc6e508e26e82652075",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0bPAi2zCrxUrPBREWdetZ5",
+			"name": "Gurriers",
+			"popularity": 7,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb1b93d0edcfde394a08660053",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051741b93d0edcfde394a08660053",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1781b93d0edcfde394a08660053",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "06vyPLBCJLDF8EGgQJEEhV",
+			"name": "Hannah Grae",
+			"popularity": 23,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb17f4b737ddd64b4b5ec996da",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517417f4b737ddd64b4b5ec996da",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17817f4b737ddd64b4b5ec996da",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "18VU8DtUJ76KDRlLoJMJUn",
+			"name": "Heave Blood & Die",
+			"popularity": 7,
+			"genres": ["norwegian alternative rock", "norwegian doom metal"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb0e4d438bd35f0e1048a693f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b0e4d438bd35f0e1048a693f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b0e4d438bd35f0e1048a693f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7AG5dB8Dc3yFhzeQaAsxUb",
+			"name": "HighSchool",
+			"popularity": 27,
+			"genres": ["australian post-punk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8159eef768eadbe29e490206",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748159eef768eadbe29e490206",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788159eef768eadbe29e490206",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4DMSJzGjw2SMkKAT5EEE5u",
+			"name": "HOMESHAKE",
+			"popularity": 52,
+			"genres": ["indie garage rock", "montreal indie", "quebec indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcf2d79c09904f0b4db12f925",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174cf2d79c09904f0b4db12f925",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178cf2d79c09904f0b4db12f925",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2xLEV2jDreAOcpJXFNoXyt",
+			"name": "Hurray For The Riff Raff",
+			"popularity": 44,
+			"genres": [
+				"alternative country",
+				"art pop",
+				"indie pop",
+				"indie rock",
+				"new americana",
+				"new orleans americana",
+				"queer country",
+				"stomp and holler"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebdb9d5c653adddad3a6893b8e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174db9d5c653adddad3a6893b8e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178db9d5c653adddad3a6893b8e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3atSqEy99wAtJLRIrFdpMY",
+			"name": "K.ZIA",
+			"popularity": 35,
+			"genres": ["indie r&b"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb051eb300de96632514daaf67",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174051eb300de96632514daaf67",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178051eb300de96632514daaf67",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "72uK8geg5BPRRzdGBmmtAF",
+			"name": "KeKe",
+			"popularity": 34,
+			"genres": ["austrian pop", "frauenrap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebac3d66f6fcdb3a6276a6a2c0",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174ac3d66f6fcdb3a6276a6a2c0",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178ac3d66f6fcdb3a6276a6a2c0",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "14PimM6ohO2gYftuwTam9V",
+			"name": "KiDi",
+			"popularity": 54,
+			"genres": ["azontobeats", "ghanaian pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc54af6c67da097b854d032d7",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c54af6c67da097b854d032d7",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c54af6c67da097b854d032d7",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4CMdLKWNEoNSLpaJ6QMWYy",
+			"name": "Kiwi jr.",
+			"popularity": 30,
+			"genres": ["garage psych"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb42ede38264959069fe0a6e89",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517442ede38264959069fe0a6e89",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17842ede38264959069fe0a6e89",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0GGKrcPOlBkmBzQDf2Ogkl",
+			"name": "Kuami Eugene",
+			"popularity": 51,
+			"genres": ["asakaa", "azontobeats"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb81ed77177b701a6244636c7b",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517481ed77177b701a6244636c7b",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17881ed77177b701a6244636c7b",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "23HG5wQ67P2pMksEMTbkur",
+			"name": "L.A. Salami",
+			"popularity": 37,
+			"genres": ["london indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb866709b6355e3d4ef645471d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174866709b6355e3d4ef645471d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178866709b6355e3d4ef645471d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6nt7tWnBx4NqnXKO6vEByU",
+			"name": "Ladaniva",
+			"popularity": 30,
+			"genres": ["armenian folk", "armenian hip hop", "armenian pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb38c649a2f62edcb0bc71c5e2",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517438c649a2f62edcb0bc71c5e2",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17838c649a2f62edcb0bc71c5e2",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5GA6j57yIPCBrWk1lTvF9o",
+			"name": "Lime Garden",
+			"popularity": 34,
+			"genres": ["brighton indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd60e78022d3af4fdacd8ec83",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d60e78022d3af4fdacd8ec83",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d60e78022d3af4fdacd8ec83",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5v4XGACPGcMZs2ANXBzVmC",
+			"name": "Liz Lawrence",
+			"popularity": 40,
+			"genres": ["neo-singer-songwriter"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf0949872b0cb13da40296e60",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f0949872b0cb13da40296e60",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f0949872b0cb13da40296e60",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3dQiKOMNVmrryTnYTRw9qa",
+			"name": "Lostboi Lino",
+			"popularity": 52,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcbb6acae86fcade6f9fc91d1",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174cbb6acae86fcade6f9fc91d1",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178cbb6acae86fcade6f9fc91d1",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6I0GEFnsmFxBdyolt4KlJe",
+			"name": "Luke Noa",
+			"popularity": 37,
+			"genres": ["german indie pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebbec177f7e9bd9a145189660c",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174bec177f7e9bd9a145189660c",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178bec177f7e9bd9a145189660c",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7yHfb2D8qIBgrzclpSsTeo",
+			"name": "Mabe Fratti",
+			"popularity": 25,
+			"genres": ["ambient pop", "guatemalan indie", "mexican experimental", "spectra"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8842e88a8fcc87f608422d10",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748842e88a8fcc87f608422d10",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788842e88a8fcc87f608422d10",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4J4onnX6YLSq64T376Fg7Q",
+			"name": "Meskerem Mees",
+			"popularity": 40,
+			"genres": ["belgian singer-songwriter"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb63f730e09e43ab61943ba010",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517463f730e09e43ab61943ba010",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17863f730e09e43ab61943ba010",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7axEazQlDDxu7KBQyFTfoC",
+			"name": "Moncrieff",
+			"popularity": 47,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb0d68cfb1e411dc63c8ed542a",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051740d68cfb1e411dc63c8ed542a",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1780d68cfb1e411dc63c8ed542a",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5PLynKfQumQiB3ihXcG28Y",
+			"name": "My Ugly Clementine",
+			"popularity": 44,
+			"genres": ["austrian indie", "german indie", "vienna indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5e27bf3175917bc2ecf866fe",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745e27bf3175917bc2ecf866fe",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785e27bf3175917bc2ecf866fe",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6tqTRVcajCVWmibmempM9m",
+			"name": "Nuha Ruby Ra",
+			"popularity": 25,
+			"genres": ["british experimental"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebe4af230c4ff632198d80003d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174e4af230c4ff632198d80003d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178e4af230c4ff632198d80003d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0WvTK38rXqPCD5pZMDuX20",
+			"name": "Oliver Francis",
+			"popularity": 53,
+			"genres": [
+				"dark trap",
+				"emo rap",
+				"melodic rap",
+				"sad rap",
+				"underground hip hop",
+				"vapor trap"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9de21e096cc98f8446edfd7a",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749de21e096cc98f8446edfd7a",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789de21e096cc98f8446edfd7a",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1qDKbZJLaLlsaI7e6mHqm3",
+			"name": "Opus Kink",
+			"popularity": 29,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb06fd7ad99dff1ede553a6acc",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517406fd7ad99dff1ede553a6acc",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17806fd7ad99dff1ede553a6acc",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6deCiWT7ATcDWP2Cvlalvn",
+			"name": "Oscar Lang",
+			"popularity": 60,
+			"genres": ["bedroom pop", "indie pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9e6be7e1c9b36f6c1d613d64",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749e6be7e1c9b36f6c1d613d64",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789e6be7e1c9b36f6c1d613d64",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2xvpNrwAVmdK1EIfA3ckzw",
+			"name": "Pano",
+			"popularity": 27,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9adec2943e29f046366e30e3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749adec2943e29f046366e30e3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789adec2943e29f046366e30e3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3iPEsc0kMbbEZTeffKAa3x",
+			"name": "Pet Deaths",
+			"popularity": 8,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb7b94838b6171a95dfeebfb35",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051747b94838b6171a95dfeebfb35",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1787b94838b6171a95dfeebfb35",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7dEx5Gii91YpvTOzrrvx5L",
+			"name": "Petrol Girls",
+			"popularity": 35,
+			"genres": ["indie punk", "uk diy punk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9aaeb954ef61a6c8ad0f9081",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749aaeb954ef61a6c8ad0f9081",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789aaeb954ef61a6c8ad0f9081",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "27aUOc2h4pz72oZen497Va",
+			"name": "Pitou",
+			"popularity": 22,
+			"genres": ["dutch singer-songwriter"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb49b19d7050ebc956f4eaa35f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517449b19d7050ebc956f4eaa35f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17849b19d7050ebc956f4eaa35f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "17MjqHVqjHRfIKAKen6o34",
+			"name": "Pongo",
+			"popularity": 44,
+			"genres": ["african electronic"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf88c08a603238b368f9ed7d3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f88c08a603238b368f9ed7d3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f88c08a603238b368f9ed7d3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "56tpT0IJ84BVtP3hvzEKjV",
+			"name": "Public Display of Affection",
+			"popularity": 8,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4ff326c4f28ada783b98c2fc",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744ff326c4f28ada783b98c2fc",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784ff326c4f28ada783b98c2fc",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2SWMwDn0bu2QcXwBWznf5u",
+			"name": "QuinzeQuinze",
+			"popularity": 24,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb66e79e2cdf9c6dce938605bf",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517466e79e2cdf9c6dce938605bf",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17866e79e2cdf9c6dce938605bf",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1GPCGZqR8TPFCpVmIiZhQD",
+			"name": "Resi Reiner",
+			"popularity": 27,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb20093f522aaadeb3cb5c77fe",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517420093f522aaadeb3cb5c77fe",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17820093f522aaadeb3cb5c77fe",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "25Bvtjq3AnlpavPu64ebGO",
+			"name": "Rolf Blumig",
+			"popularity": 5,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb991e28b6ffa17912a0c91cd6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174991e28b6ffa17912a0c91cd6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178991e28b6ffa17912a0c91cd6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2MCyjG9viaC9IM39VO3yDe",
+			"name": "Roller Derby",
+			"popularity": 25,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4f0d98ac37f78b0508dd44cc",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744f0d98ac37f78b0508dd44cc",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784f0d98ac37f78b0508dd44cc",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2rR0cafJvL0JVTC8E2qIqt",
+			"name": "Saveus",
+			"popularity": 43,
+			"genres": ["danish pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb9d4650d72b0ad18a59a15a09",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051749d4650d72b0ad18a59a15a09",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1789d4650d72b0ad18a59a15a09",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7wrulS1dfanckBnoxxEuS6",
+			"name": "Scarlet Pleasure",
+			"popularity": 52,
+			"genres": ["danish pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eba27edac4cc644fcdf370bf2e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174a27edac4cc644fcdf370bf2e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178a27edac4cc644fcdf370bf2e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0Nron4wq7uF2TwLodaVRHr",
+			"name": "Sinead O Brien",
+			"popularity": 28,
+			"genres": ["chamber psych", "uk post-punk revival"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb7aad3ead0c047c91f2f073e0",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051747aad3ead0c047c91f2f073e0",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1787aad3ead0c047c91f2f073e0",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3KJJk2RU4RbO0yoDUZzHwZ",
+			"name": "Slopes",
+			"popularity": 42,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3e3fe7ba48b9636d48f9e8e3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743e3fe7ba48b9636d48f9e8e3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783e3fe7ba48b9636d48f9e8e3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1br1PqvafIUOis4rBUvv1H",
+			"name": "STONE",
+			"popularity": 29,
+			"genres": ["uk post-punk revival"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb1dc9d75e95a34a4bbc67f4dd",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051741dc9d75e95a34a4bbc67f4dd",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1781dc9d75e95a34a4bbc67f4dd",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6Fz85Ih5XufwQ1TH4s0pHA",
+			"name": "Takeshi's Cashew",
+			"popularity": 28,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5349a05c3bb8d237e969eb01",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745349a05c3bb8d237e969eb01",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785349a05c3bb8d237e969eb01",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "47sKkybVg9NVz7IWvTezzy",
+			"name": "TAXI KEBAB",
+			"popularity": 30,
+			"genres": ["french psychedelic"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3115c824384dfedd8e4ee8a1",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743115c824384dfedd8e4ee8a1",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783115c824384dfedd8e4ee8a1",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2qljmykdCfgGy9zUw7UqkX",
+			"name": "The Dears",
+			"popularity": 27,
+			"genres": ["canadian indie", "quebec indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc82c17bcc7e9e42504a0c234",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c82c17bcc7e9e42504a0c234",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c82c17bcc7e9e42504a0c234",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2BJzRLleDH2jTAArbI4Xod",
+			"name": "The Haunted Youth",
+			"popularity": 37,
+			"genres": ["belgian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb6b63a093149bc2b23c9cd6f7",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051746b63a093149bc2b23c9cd6f7",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1786b63a093149bc2b23c9cd6f7",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "15QhuBSLfDNECfF8wvxj0M",
+			"name": "The Mysterines",
+			"popularity": 40,
+			"genres": [
+				"britpop revival",
+				"indie rock",
+				"liverpool indie",
+				"modern alternative rock",
+				"modern rock"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb24e82415d65158974b337243",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517424e82415d65158974b337243",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17824e82415d65158974b337243",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2xOzJ4KDhvZrBLCvorstRR",
+			"name": "The Rills",
+			"popularity": 33,
+			"genres": ["london indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc59713affe4a5d05c9697b46",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c59713affe4a5d05c9697b46",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c59713affe4a5d05c9697b46",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4SrofCfzlhtiKRAsMfBxV4",
+			"name": "The Sherlocks",
+			"popularity": 39,
+			"genres": ["english indie rock", "modern alternative rock", "modern rock", "sheffield indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb1d2812d09501f6b2075077a",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b1d2812d09501f6b2075077a",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b1d2812d09501f6b2075077a",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1iMsLpQB3kldZ9s7pne7gP",
+			"name": "THUMPER",
+			"popularity": 20,
+			"genres": ["dublin indie", "irish indie rock"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebedf900d83440b26d0f7c9912",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174edf900d83440b26d0f7c9912",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178edf900d83440b26d0f7c9912",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0Ev1tqYsfzq2eF5qqXhkYm",
+			"name": "VLURE",
+			"popularity": 19,
+			"genres": ["uk post-punk revival"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb04b79526fdd18e177344c117",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517404b79526fdd18e177344c117",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17804b79526fdd18e177344c117",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0TsIM5Qn3E80DdALzp7Nns",
+			"name": "Vomit Heat",
+			"popularity": 19,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb6f8aa6759b580c0e3bc69a62",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051746f8aa6759b580c0e3bc69a62",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1786f8aa6759b580c0e3bc69a62",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2uYZJqMXH5Q6xvPU6BPySL",
+			"name": "Willy Mason",
+			"popularity": 40,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb35aa7ad649e89808ed90d761",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517435aa7ad649e89808ed90d761",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17835aa7ad649e89808ed90d761",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1Zdd7fqk5jtuMUwE7agpS1",
+			"name": "Witch Fever",
+			"popularity": 26,
+			"genres": ["manchester indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebdeb2507fdac5ca61cec127cb",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174deb2507fdac5ca61cec127cb",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178deb2507fdac5ca61cec127cb",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2sY4BbYrbvNVgsNzo6HddD",
+			"name": "yunè pinku",
+			"popularity": 43,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb1ce5322d9e1bca81e2c7f29c",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051741ce5322d9e1bca81e2c7f29c",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1781ce5322d9e1bca81e2c7f29c",
+					"width": 160
+				}
+			]
+		},
+
+		{
+			"spotifyId": "3nOQJdlPEzFVhTEzxwcGax",
+			"name": "Sophie Hunger",
+			"popularity": 48,
+			"genres": ["swiss indie", "swiss rock"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb78bf7fe60d44309d9ad920b2",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517478bf7fe60d44309d9ad920b2",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17878bf7fe60d44309d9ad920b2",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5yRolHpTcDas7KX7KiH6Wd",
+			"name": "Wu-Lu",
+			"popularity": 38,
+			"genres": ["chamber psych", "experimental hip hop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb34321b78f48debf5c3e02725",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517434321b78f48debf5c3e02725",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17834321b78f48debf5c3e02725",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6LPDid2j16uSQ3qSLmIwFR",
+			"name": "BOUNTY & COCOA",
+			"popularity": 43,
+			"genres": ["german hip hop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb35304fe8844cb5cc9adff38a",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517435304fe8844cb5cc9adff38a",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17835304fe8844cb5cc9adff38a",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4VqlewwKZJoIcA88PYHUDd",
+			"name": "Baby Queen",
+			"popularity": 57,
+			"genres": ["indie pop", "modern alternative pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebe2462033bfddc09507afda48",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174e2462033bfddc09507afda48",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178e2462033bfddc09507afda48",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1CT7BjCVYK5vr9SNr7WlEP",
+			"name": "Enola Gay",
+			"popularity": 27,
+			"genres": ["uk post-punk revival"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb056344e5991bd92418a07041",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174056344e5991bd92418a07041",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178056344e5991bd92418a07041",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "30VFmfxKlxl2LmNe6rtMis",
+			"name": "Skinny Lister",
+			"popularity": 28,
+			"genres": ["folk punk"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb80422f35aef97b8ae5ff685e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517480422f35aef97b8ae5ff685e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17880422f35aef97b8ae5ff685e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3OXpCq0ndnIgWu13LKBEba",
+			"name": "BEACHPEOPLE",
+			"popularity": 36,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb16cb4bedb027361a81b8b4ec",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517416cb4bedb027361a81b8b4ec",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17816cb4bedb027361a81b8b4ec",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1bQat2UgYwJAsNOrZxcfa5",
+			"name": "Sophia Kennedy",
+			"popularity": 36,
+			"genres": ["art pop", "german indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb5e83915d2ce2855240b31b6b",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051745e83915d2ce2855240b31b6b",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1785e83915d2ce2855240b31b6b",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "43lLFqwBfXJP3T5ZsL6E2x",
+			"name": "Kerosin95",
+			"popularity": 29,
+			"genres": ["austrian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3c7fe343b72602866cd6ca1c",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743c7fe343b72602866cd6ca1c",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783c7fe343b72602866cd6ca1c",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3xnCBQeZDec3FFo8vUSt4N",
+			"name": "Will Linley",
+			"popularity": 44,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc87d3bc46f4fca68399d32e3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c87d3bc46f4fca68399d32e3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c87d3bc46f4fca68399d32e3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3h1CDf5DWhsGXMsefho0X6",
+			"name": "ATOEM",
+			"popularity": 28,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb7a70515122100ba35e34f104",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051747a70515122100ba35e34f104",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1787a70515122100ba35e34f104",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5Uw20NgiZnH2WMcpQ7FdRB",
+			"name": "Mia Morgan",
+			"popularity": 32,
+			"genres": ["german indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb944624241932b6522e139e12",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174944624241932b6522e139e12",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178944624241932b6522e139e12",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1jucBaHU995Lf7ViACscFu",
+			"name": "Real Lies",
+			"popularity": 32,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb289eb62f051174f379b1a6f",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b289eb62f051174f379b1a6f",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b289eb62f051174f379b1a6f",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "06W84OT2eFUNVwG85UsxJw",
+			"name": "Caroline Rose",
+			"popularity": 52,
+			"genres": ["art pop", "indie pop", "indie surf", "vermont indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb118e459d9672e115cde2a460",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174118e459d9672e115cde2a460",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178118e459d9672e115cde2a460",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5wqj5DHpNUW5TySzEtzdFg",
+			"name": "nand",
+			"popularity": 45,
+			"genres": ["german indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd279dbeeb305d8d166204140",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d279dbeeb305d8d166204140",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d279dbeeb305d8d166204140",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4Cx5LnF4WNJIn9SSqyeq9C",
+			"name": "bdrmm",
+			"popularity": 43,
+			"genres": [
+				"bedroom pop",
+				"chamber psych",
+				"garage psych",
+				"hull indie",
+				"modern alternative rock",
+				"modern rock",
+				"nu gaze"
+			],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb6f2ef5551c4676f45c861bbf",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051746f2ef5551c4676f45c861bbf",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1786f2ef5551c4676f45c861bbf",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5gw5ANPCVcxU0maLiGRzzP",
+			"name": "Billy Raffoul",
+			"popularity": 53,
+			"genres": ["uk pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb6c9d6441ca91c7821531ad5e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051746c9d6441ca91c7821531ad5e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1786c9d6441ca91c7821531ad5e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1fImPZoBVjmYrBFzCHh0N3",
+			"name": "Souly",
+			"popularity": 43,
+			"genres": ["german cloud rap", "german hip hop", "german trap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3907259e83f4959119613737",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743907259e83f4959119613737",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783907259e83f4959119613737",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6BcWGwvuWOW4F9IYBvWR6K",
+			"name": "Sharktank",
+			"popularity": 44,
+			"genres": ["austrian pop", "german indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebfa4f1629c9bc54a7863736d6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174fa4f1629c9bc54a7863736d6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178fa4f1629c9bc54a7863736d6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6s74lp18Qqs5s46mJKtxWi",
+			"name": "Dani Larkin",
+			"popularity": 11,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb0d5c9b87c1cc7949ed5547a1",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051740d5c9b87c1cc7949ed5547a1",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1780d5c9b87c1cc7949ed5547a1",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "76s04CnDX5gMiAl3Mkq7iC",
+			"name": "Anna Bassy",
+			"popularity": 2,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebf58ebc4cc7c1faf545e80f70",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174f58ebc4cc7c1faf545e80f70",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178f58ebc4cc7c1faf545e80f70",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3ArMw8hAAcSUlM8MgA8wbK",
+			"name": "Cham Léon",
+			"popularity": 7,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebef78f6d859cbf794625e4bd3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174ef78f6d859cbf794625e4bd3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178ef78f6d859cbf794625e4bd3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4nfBa9tw0IWAdtirqqmrbY",
+			"name": "IMOGEN",
+			"popularity": 18,
+			"genres": ["london indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebaa98902ed1c8c9c22cc23a00",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174aa98902ed1c8c9c22cc23a00",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178aa98902ed1c8c9c22cc23a00",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "49H7TP0j57PzefFWfHZGJb",
+			"name": "John Moods",
+			"popularity": 31,
+			"genres": ["german indie pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb938dfde5788219221f9465e6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174938dfde5788219221f9465e6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178938dfde5788219221f9465e6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4V4ZQE3T7sesTCOyW4Q8N1",
+			"name": "Aze",
+			"popularity": 29,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eba9b534a5b15b181a42b51a9c",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174a9b534a5b15b181a42b51a9c",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178a9b534a5b15b181a42b51a9c",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7JmNUb5QPlIV4psjRqNsID",
+			"name": "Eli Preiss",
+			"popularity": 37,
+			"genres": ["german hip hop", "german trap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb9d95c4673ad7735e2015440",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b9d95c4673ad7735e2015440",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b9d95c4673ad7735e2015440",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4cohcn6lAkdQIAt3q5C4e2",
+			"name": "BIBIZA",
+			"popularity": 38,
+			"genres": ["german alternative rap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8c755179d0f3bdffc62b53a5",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748c755179d0f3bdffc62b53a5",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788c755179d0f3bdffc62b53a5",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3iUGCPBBseYhEhwqCG7PNy",
+			"name": "Kings Elliot",
+			"popularity": 39,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb2ce2f45a1f1111726b30fd8d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051742ce2f45a1f1111726b30fd8d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1782ce2f45a1f1111726b30fd8d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0BuB6oNX1squsfXbtkO5JE",
+			"name": "Koki Nakano",
+			"popularity": 23,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebb0df15801d9be0d6533f16dd",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174b0df15801d9be0d6533f16dd",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178b0df15801d9be0d6533f16dd",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5NyCIBCeU080ynEj33S4hC",
+			"name": "Blu DeTiger",
+			"popularity": 51,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb52d988c187a329a9c4b19aaa",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517452d988c187a329a9c4b19aaa",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17852d988c187a329a9c4b19aaa",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2FJBOBjXqWC5s3kDfs9nY4",
+			"name": "Donkey Kid",
+			"popularity": 30,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3a4be10c64c2f8cbb5b1fd6d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743a4be10c64c2f8cbb5b1fd6d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783a4be10c64c2f8cbb5b1fd6d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "5uT4SmzhWTYv1iia2BFnVQ",
+			"name": "anaïs",
+			"popularity": 48,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebffe3b41fa51b9709ff07ae70",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174ffe3b41fa51b9709ff07ae70",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178ffe3b41fa51b9709ff07ae70",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0lIIsJafIVVi3ruN2vFzpS",
+			"name": "Moglii",
+			"popularity": 48,
+			"genres": ["vapor soul"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebbe472a5f68ca2306b719ac32",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174be472a5f68ca2306b719ac32",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178be472a5f68ca2306b719ac32",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2AzGGPCjkv7D9o7KkpxJYi",
+			"name": "M. Byrd",
+			"popularity": 35,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb910c36efab0bf77cb771b8b9",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174910c36efab0bf77cb771b8b9",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178910c36efab0bf77cb771b8b9",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "30LcsznPMRdeZ9zTXsP9wF",
+			"name": "fluppe",
+			"popularity": 6,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb571ffc5721c19aeca12aaa90",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174571ffc5721c19aeca12aaa90",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178571ffc5721c19aeca12aaa90",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "56UIK6wmbbxuQ6VA20vrWD",
+			"name": "Lola Marsh",
+			"popularity": 52,
+			"genres": ["israeli indie", "new americana"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb022cdd169b776119236e5620",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174022cdd169b776119236e5620",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178022cdd169b776119236e5620",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6lxux8VJXRZ98idfyMzZmx",
+			"name": "Bulgarian Cartrader",
+			"popularity": 29,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb51f7dcb2a6bdb7c61675c358",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517451f7dcb2a6bdb7c61675c358",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17851f7dcb2a6bdb7c61675c358",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3kJ7c6rBMrQaLAXIFb61vp",
+			"name": "YAEL",
+			"popularity": 22,
+			"genres": ["german r&b"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc5c8e618a02bd5722cd9edc3",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c5c8e618a02bd5722cd9edc3",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c5c8e618a02bd5722cd9edc3",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "77YCAroJisD7uOECsiPcAL",
+			"name": "Tamzene",
+			"popularity": 36,
+			"genres": ["leeds indie", "uk pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd4282a581ee818b419d5f5fc",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d4282a581ee818b419d5f5fc",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d4282a581ee818b419d5f5fc",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6AVkYjGMj3XVS2unAVeKSU",
+			"name": "Sharaktah",
+			"popularity": 46,
+			"genres": ["german hip hop", "german pop", "german trap"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb884013be322a5de900681ccb",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174884013be322a5de900681ccb",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178884013be322a5de900681ccb",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6Ktx4W0UWEkRQKxhkIUFvP",
+			"name": "Pina Palau",
+			"popularity": 18,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb7491b0184102c370a6376407",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051747491b0184102c370a6376407",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1787491b0184102c370a6376407",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1ihKKcrzAd68ftS7adfOtM",
+			"name": "Ferdous",
+			"popularity": 38,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb21a7459be0294cf9a0c5bd80",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517421a7459be0294cf9a0c5bd80",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17821a7459be0294cf9a0c5bd80",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6AE7CSJUwDMnTXV4yKVLLv",
+			"name": "Thomas Azier",
+			"popularity": 35,
+			"genres": ["dutch indie", "dutch pop"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb634c7a2bc508fac500ed9f89",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174634c7a2bc508fac500ed9f89",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178634c7a2bc508fac500ed9f89",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3AbpwdjSWkaLmsXyZhmIFl",
+			"name": "Monvol",
+			"popularity": 23,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebccc2d776e973f21058e94da6",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174ccc2d776e973f21058e94da6",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178ccc2d776e973f21058e94da6",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "05iAz0MsD0BryYptGXyzqI",
+			"name": "Leftovers",
+			"popularity": 24,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebc7152c4a5e336fb82298e162",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174c7152c4a5e336fb82298e162",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178c7152c4a5e336fb82298e162",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2mSRaqgZqtWItVBIoyjE0g",
+			"name": "DAYYANI",
+			"popularity": 14,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb35a8474df0209113f66a1033",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517435a8474df0209113f66a1033",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17835a8474df0209113f66a1033",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1f0lOAVUVsvySz4dvshINJ",
+			"name": "Olympya",
+			"popularity": 15,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebd7cf5f1fb7fd4412e76a5b54",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174d7cf5f1fb7fd4412e76a5b54",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178d7cf5f1fb7fd4412e76a5b54",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "589mGvuEPlppLiP3qTeqpk",
+			"name": "HÆCTOR",
+			"popularity": 20,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb6800aa04682ed12bf8b6541d",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051746800aa04682ed12bf8b6541d",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1786800aa04682ed12bf8b6541d",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "0FSc1VcYTT0NQ5u9f5Hmpk",
+			"name": "Diana Goldberg",
+			"popularity": 37,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eba3056630a23f968c06626dc5",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174a3056630a23f968c06626dc5",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178a3056630a23f968c06626dc5",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7mz52isECxJqgXgfL7W6Fx",
+			"name": "Maffai",
+			"popularity": 20,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb082fc030d6072117c14ae353",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174082fc030d6072117c14ae353",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178082fc030d6072117c14ae353",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "31t8VOhM577SsozJ7QHRZR",
+			"name": "Tuys",
+			"popularity": 9,
+			"genres": ["luxembourgian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb60590e4e60e6b4aed678a899",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517460590e4e60e6b4aed678a899",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17860590e4e60e6b4aed678a899",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7H55j50FUEqEhAVqJbIBuE",
+			"name": "Elena Rud",
+			"popularity": 11,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb68d51e23bb168ad90d290100",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517468d51e23bb168ad90d290100",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17868d51e23bb168ad90d290100",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1SMVoXlPGj6bNZX9fiogp4",
+			"name": "The Ferocious Few",
+			"popularity": 3,
+			"genres": ["luxembourgian indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebcf085151cc60ad22e340e173",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174cf085151cc60ad22e340e173",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178cf085151cc60ad22e340e173",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6gT9lfBqZ1R9BrSEuB09E1",
+			"name": "The String Theory",
+			"popularity": 28,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb3eeb4636dd70fb124a71515c",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051743eeb4636dd70fb124a71515c",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1783eeb4636dd70fb124a71515c",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3u0MDO6lzcNjpiNo6ceBjC",
+			"name": "Arden",
+			"popularity": 14,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb23d5b172905a0f28aedfcb74",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517423d5b172905a0f28aedfcb74",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17823d5b172905a0f28aedfcb74",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "7DywOvyBBCWDhxQH8RkBsV",
+			"name": "Adriano Koch",
+			"popularity": 19,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb2670d1fbef2bf5e65da70731",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051742670d1fbef2bf5e65da70731",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1782670d1fbef2bf5e65da70731",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "3U6eCXHFS6wQVuFuqeW09m",
+			"name": "The Daydream Club",
+			"popularity": 31,
+			"genres": ["stomp and holler"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb26108c9a54425a61e080535b",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab6761610000517426108c9a54425a61e080535b",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f17826108c9a54425a61e080535b",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6O5DwC1I3LFO7bvfYOSAw8",
+			"name": "KÅRP",
+			"popularity": 25,
+			"genres": ["gothenburg indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebaf403951b6789e1d0bcfe02e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174af403951b6789e1d0bcfe02e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178af403951b6789e1d0bcfe02e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "6vStcouZCnOc2yg2tiUC6C",
+			"name": "Beverly Kills",
+			"popularity": 9,
+			"genres": ["gothenburg indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb014b8447ef1cef3da902dfce",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174014b8447ef1cef3da902dfce",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178014b8447ef1cef3da902dfce",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4AwHWQ8KL6tCUIzL9Du1RA",
+			"name": "Elena Steri",
+			"popularity": 21,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb4628d099c2bb3027cc68afd7",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051744628d099c2bb3027cc68afd7",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1784628d099c2bb3027cc68afd7",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "4oNw4xsW0dnOW2DtLtiY6S",
+			"name": "DŸSE",
+			"popularity": 21,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5ebe15129c1ecaaa72baf4acaf2",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174e15129c1ecaaa72baf4acaf2",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178e15129c1ecaaa72baf4acaf2",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "1BfuU1LwMYXGrYNdyV2g1H",
+			"name": "H.B. Nielsen",
+			"popularity": 3,
+			"genres": ["gothenburg indie"],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb137841431900356e8aa2a19e",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab67616100005174137841431900356e8aa2a19e",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f178137841431900356e8aa2a19e",
+					"width": 160
+				}
+			]
+		},
+		{
+			"spotifyId": "2v6rUpbFB5iHW6hR91BIpL",
+			"name": "NASHI44",
+			"popularity": 19,
+			"genres": [],
+			"images": [
+				{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab6761610000e5eb8bcc12b16915283cb654c541",
+					"width": 640
+				},
+				{
+					"height": 320,
+					"url": "https://i.scdn.co/image/ab676161000051748bcc12b16915283cb654c541",
+					"width": 320
+				},
+				{
+					"height": 160,
+					"url": "https://i.scdn.co/image/ab6761610000f1788bcc12b16915283cb654c541",
+					"width": 160
+				}
+			]
+		}
+	]
+}
