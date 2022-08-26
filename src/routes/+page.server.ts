@@ -3,7 +3,7 @@ import fs from 'fs';
 import { basename, extname } from 'path';
 
 // ----- GET -----
-export async function GET(event: RequestEvent) {
+export async function load(event: RequestEvent) {
 	// const path = './static/gix';
 
 	// const yearGigs: any = {};
@@ -24,7 +24,7 @@ export async function GET(event: RequestEvent) {
 	// 	}
 	// });
 
-	const yearGigs = { 2022: ['hurricane', 'wacken', 'reeperbahn'] };
+	const yearGigs: { [key: string]: string[] } = { 2022: ['hurricane', 'wacken', 'reeperbahn'] };
 
-	return { body: { gigs: yearGigs } };
+	return { gigs: yearGigs };
 }

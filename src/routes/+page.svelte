@@ -1,9 +1,13 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { auth } from '$lib/stores/auth.js';
+	import type { PageData } from './$types';
 
-	export let gigs: any;
-	let currentYear: string = Math.max(...Object.keys(gigs).map((year) => Number(year))).toString();
+	export let data: PageData;
+
+	let currentYear: string = Math.max(
+		...Object.keys(data.gigs).map((year) => Number(year))
+	).toString();
 
 	onMount(async () => {
 		const parsedHash = new URLSearchParams(
@@ -41,14 +45,14 @@
 	{#if $auth.accessToken}
 		<div id="container">
 			<ul id="years">
-				{#if gigs}
-					{#each Object.keys(gigs).reverse() as year, i}
+				{#if data.gigs}
+					{#each Object.keys(data.gigs).reverse() as year, i}
 						<li>
 							<h3 class="year" on:click={(e) => (currentYear = currentYear === year ? '' : year)}>
 								{currentYear === year ? '[-]' : '[+]'}{year}
 							</h3>
 							<ul class="gigs" class:hidden={currentYear !== year}>
-								{#each gigs[year] as gig}
+								{#each data.gigs[year] as gig}
 									<li class="gig">
 										<a href="/{year}/{gig}.json">
 											{gig}

@@ -1,23 +1,7 @@
-<script lang="ts" context="module">
-	import type { LoadEvent } from '@sveltejs/kit';
-
-	export async function load({ fetch, params }: LoadEvent) {
-		const hurricaneInfoUrl = `/gix/${params.year}/${params.gig}`;
-		const response = await fetch(hurricaneInfoUrl);
-
-		return {
-			status: response.status,
-			props: {
-				gig: response.ok && (await response.json())
-			}
-		};
-	}
-</script>
-
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Player from '$lib/components/Player.svelte';
-	import { searchForActs, updateActs } from '$lib/util';
+	import { searchForActs, searchForActsRBF, updateActs } from '$lib/util';
 	import ActGrid from '$lib/components/ActGrid.svelte';
 	import { gig as gigStore } from '$lib/stores/gig.js';
 	import type { Artist, Gig } from '$lib/types';
@@ -26,10 +10,15 @@
 	import { playlist } from '$lib/stores/playlist.js';
 	import { auth } from '$lib/stores/auth.js';
 
-	export let gig: Gig;
+	import type { PageData } from './$types';
+
+	export let data: PageData;
+
+	let gig: Gig = data.gig;
 
 	let currentTrack: Spotify.Track;
 	let acts: string;
+	let rbfActs: string;
 	let jsonActs: string;
 
 	let filterGenre: string;
@@ -83,6 +72,8 @@
 			<option value={{ attribute: 'name', asc: false }}>name↓</option>
 			<option value={{ attribute: 'popularity', asc: false }}>popularity↓</option>
 			<option value={{ attribute: 'popularity', asc: true }}>popularity↑</option>
+			<option value={{ attribute: 'addedAt', asc: false }}>addedAt↓</option>
+			<option value={{ attribute: 'addedAt', asc: true }}>addedAt↑</option>
 		</select>
 		<select
 			bind:value={filterGenre}
@@ -93,18 +84,22 @@
 		>
 			<option value={undefined}>all</option>
 			<option value="pop">pop</option>
+			<option value="rock">rock</option>
 			<option value="hip hop">hip hop</option>
 			<option value="punk">punk</option>
 			<option value="indie">indie</option>
+			<option value="songwriter">singer-songwriter</option>
 			<option value="dance">dance</option>
 			<option value="folk">folk</option>
 			<option value="edm">edm</option>
 			<option value="doom">doom</option>
 			<option value="modern">modern</option>
 			<option value="reggae">reggea</option>
+			<option value="r&b">r&b</option>
 			<option value="wave">wave</option>
 			<option value="metal">metal</option>
 			<option value="core">core</option>
+			<option value="experimental">experimental</option>
 		</select>
 		<div id="playlist-toggle">
 			<button on:click={() => toggleSidebar()}>queue[{$playlist.length}]</button>
@@ -124,6 +119,14 @@
 				searchForActs(acts);
 			}}>Suche bei Spotify</button
 		>
+
+		<textarea bind:value={rbfActs} cols="30" rows="10" />
+		<button
+			on:click={() => {
+				searchForActsRBF(rbfActs);
+			}}>Suche bei Spotify (RBP)</button
+		>
+
 		<textarea bind:value={jsonActs} cols="30" rows="10" />
 		<button
 			on:click={() => {

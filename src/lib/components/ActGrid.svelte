@@ -39,7 +39,11 @@
 	);
 	$: filteredActs = $gigStore.acts
 		.filter((act) => !filterTopArtists || usersTopArtistIds.includes(act.spotifyId))
-		.filter((act) => !filterGenre || act.genres.some((genre) => genre.includes(filterGenre)))
+		.filter(
+			(act) =>
+				!filterGenre ||
+				act.genres.some((genre) => genre.toLowerCase().includes(filterGenre.toLowerCase()))
+		)
 		.map((act) => act.spotifyId);
 
 	$: onFilterChange(actsRefs, filteredActs);

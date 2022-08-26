@@ -7,6 +7,7 @@ export interface Artist {
 	genres: string[];
 	images: { url: string; height: number; width: number }[];
 	followers: { total: number };
+	addedAt: number;
 }
 export interface Gig {
 	acts: Array<Artist>;

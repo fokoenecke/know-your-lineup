@@ -21,11 +21,11 @@ export async function GET(event: RequestEvent) {
 	};
 
 	const querystring = new URLSearchParams(params).toString();
-	return {
+	return new Response(undefined, {
 		status: 301,
 		headers: {
 			'access-control-allow-origin': '*',
 			Location: `https://accounts.spotify.com/authorize?${querystring}`
 		}
-	};
+	});
 }

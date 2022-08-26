@@ -1,4 +1,3 @@
-import { goto } from '$app/navigation';
 import { get } from 'svelte/store';
 import { auth } from '$lib/stores/auth.js';
 
