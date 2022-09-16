@@ -15,4 +15,5 @@ export interface Gig {
 
 export interface PlaylistTrack extends SpotifyTrack {
 	randomPosition: boolean;
+	artistId: string;
 }

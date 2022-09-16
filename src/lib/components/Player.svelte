@@ -1,4 +1,5 @@
 <script lang="ts" context="module">
+	import { activeAct as activeActStore } from '$lib/stores/activeAct.js';
 </script>
 
 <script lang="ts">
@@ -14,6 +15,7 @@
 
 	let deviceId: string;
 	let activeTrack: boolean = false;
+	let activeArtistId: string;
 
 	onMount(() => {
 		window.onSpotifyWebPlaybackSDKReady = () => {
@@ -61,18 +63,21 @@
 			console.log('playing', nextTrack?.name, 'as next track');
 			if (nextTrack) {
 				playTrack(nextTrack as SpotifyTrack, nextTrack.randomPosition, sleepDuration);
+				activeArtistId = nextTrack.artistId;
 			}
 		} else {
 			console.log('no next track');
 			player.nextTrack();
 			activeTrack = false;
 			playing = false;
+			activeArtistId = '';
 		}
 	}
 
 	async function playTrack(track: SpotifyTrack, randomPosition = false, sleepDuration = 0) {
 		let position = 0;
 		if (randomPosition) {
+			// ~~ -> double not bitwise-or = math.floor
 			position = ~~(track.duration_ms / 3 + (Math.random() * track.duration_ms) / 3);
 		}
 		// bug in spotify API?
@@ -91,7 +96,12 @@
 
 <div id="playing">
 	{#if activeTrack}
-		<h3>
+		<h3
+			class="pointable"
+			on:click={() => {
+				activeActStore.set(activeArtistId);
+			}}
+		>
 			{currentTrack?.artists.map((artist) => artist.name).join(', ')} - {currentTrack?.name}
 		</h3>
 	{/if}

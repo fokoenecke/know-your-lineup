@@ -3,6 +3,7 @@
 	import { type SpotifyArtist, getUsersTopArtists } from '$lib/spotify';
 	import { fade } from 'svelte/transition';
 	import { gig as gigStore } from '$lib/stores/gig.js';
+	import { activeAct as activeActStore } from '$lib/stores/activeAct.js';
 	import { onMount, tick } from 'svelte';
 	import ActCard from './ArtistCard.svelte';
 
@@ -16,7 +17,6 @@
 	// const deep_value = (obj: Artist, path: string) =>
 	// 	path.split('.').reduce((acc, val) => {{acc && val in acc && acc[val]}}, obj);
 
-	let activeAct: string;
 	let artistCard: ActCard;
 	let actsRefs: { [key: string]: HTMLLIElement } = {};
 
@@ -48,7 +48,7 @@
 
 	$: onFilterChange(actsRefs, filteredActs);
 	async function onFilterChange(...args: any[]) {
-		const actId = activeAct;
+		const actId = $activeActStore;
 		if (!!actId) {
 			await tick();
 			deactivateArtist();
@@ -60,7 +60,7 @@
 		}
 	}
 
-	$: onActChange(activeAct);
+	$: onActChange($activeActStore);
 	function onActChange(actId: string) {
 		console.log('on act change');
 		if (!!actId) {
@@ -76,7 +76,7 @@
 	}
 
 	function setActiveAct(actId: string): void {
-		activeAct = actId === activeAct ? '' : actId;
+		activeActStore.set(actId === $activeActStore ? '' : actId);
 	}
 
 	export const orderActsByAttribute = (attr: keyof Artist, asc: boolean = true) => {
@@ -106,6 +106,8 @@
 	}
 </script>
 
+<svelte:window on:onActChange={setActiveAct} />
+
 <div id="acts">
 	{#if filteredActs.length > 0}
 		<ul id="act-grid">
@@ -115,8 +117,8 @@
 					style="background-image: url({act.images?.at(0)?.url})"
 					on:click={() => setActiveAct(act.spotifyId)}
 					class:hidden={!filteredActs.includes(act.spotifyId)}
-					class:active={activeAct === act.spotifyId}
-					class:inactive={!!activeAct && activeAct !== act.spotifyId}
+					class:active={$activeActStore === act.spotifyId}
+					class:inactive={!!$activeActStore && $activeActStore !== act.spotifyId}
 					bind:this={actsRefs[act.spotifyId]}
 				>
 					{act.name}

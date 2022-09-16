@@ -90,6 +90,7 @@ export function setupWebPlayer(
 		const current_track = state.track_window.current_track;
 		currentTrackCB(current_track);
 		if (state.paused === true && state.position === 0) {
+			console.log(state);
 			if (!trackEnded) {
 				trackEnded = true;
 				trackEndedCB();
