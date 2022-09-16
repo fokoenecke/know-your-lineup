@@ -78,7 +78,7 @@
 		let position = 0;
 		if (randomPosition) {
 			// ~~ -> double not bitwise-or = math.floor
-			position = ~~(track.duration_ms / 3 + (Math.random() * track.duration_ms) / 3);
+			position = ~~((track.duration_ms * 2) / 3 + (Math.random() * track.duration_ms) / 3);
 		}
 		// bug in spotify API?
 		// https://community.spotify.com/t5/Spotify-for-Developers/Web-API-502-error-on-me-player-play-for-a-short-period-after/td-p/5400268

@@ -50,7 +50,7 @@
 				<li
 					class="topTrack"
 					on:click={() => {
-						playlist.addTrack({ ...topTrack, randomPosition: false, artistId });
+						playlist.addTrack({ ...topTrack, randomPosition: true, artistId });
 					}}
 				>
 					<div
