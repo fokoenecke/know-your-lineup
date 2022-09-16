@@ -55,7 +55,7 @@
 				>
 					<div
 						class="trackImage"
-						style="background-image: url({topTrack.album.images?.at(0)?.url})"
+						style="background-image: url({topTrack.album.images?.at(-1)?.url})"
 					/>
 					<span>{topTrack.name}</span>
 				</li>
@@ -79,7 +79,7 @@
 						>
 							<div
 								class="relatedImage"
-								style="background-image: url({related.images?.at(0)?.url})"
+								style="background-image: url({related.images?.at(-1)?.url})"
 							/>
 							<span>{related.name}</span>
 						</li>

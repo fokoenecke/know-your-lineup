@@ -114,7 +114,7 @@
 			{#each acts as act, i}
 				<li
 					in:fade
-					style="background-image: url({act.images?.at(0)?.url})"
+					style="background-image: url({act.images?.at(-1)?.url})"
 					on:click={() => setActiveAct(act.spotifyId)}
 					class:hidden={!filteredActs.includes(act.spotifyId)}
 					class:active={$activeActStore === act.spotifyId}
@@ -156,7 +156,6 @@
 		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 		background-size: cover;
 		background-position: center;
-		overflow: hidden;
 		text-overflow: ellipsis;
 	}
 	#act-grid li.inactive {

@@ -56,7 +56,8 @@
 		cursor: pointer;
 	}
 	#playlist li:hover {
-		background-color: grey;
+		text-decoration: line-through;
+		background-color: lightgray;
 	}
 	#playlist li {
 		text-overflow: ellipsis;

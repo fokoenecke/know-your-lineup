@@ -9,6 +9,7 @@ const generateRandomString = (len: number) => {
 
 export async function GET(event: RequestEvent) {
 	console.log(SPOTIFY_CLIENT_ID);
+	console.log(BASE_URL);
 	const state = generateRandomString(16);
 	const scope = 'user-read-private user-top-read user-read-email streaming';
 
