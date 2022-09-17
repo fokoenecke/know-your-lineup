@@ -10,7 +10,7 @@
 	import { playlist } from '$lib/stores/playlist.js';
 	import { auth } from '$lib/stores/auth.js';
 
-	import type { PageData } from './$types';
+	import type { PageData } from '../../../../.svelte-kit/types/src/routes/[year=year]/[gig]/$types';
 
 	export let data: PageData;
 
@@ -91,6 +91,7 @@
 			<option value="songwriter">singer-songwriter</option>
 			<option value="dance">dance</option>
 			<option value="folk">folk</option>
+			<option value="electronic">electronic</option>
 			<option value="edm">edm</option>
 			<option value="doom">doom</option>
 			<option value="modern">modern</option>

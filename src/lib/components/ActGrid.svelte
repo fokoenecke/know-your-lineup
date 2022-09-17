@@ -42,7 +42,16 @@
 		.filter(
 			(act) =>
 				!filterGenre ||
-				act.genres.some((genre) => genre.toLowerCase().includes(filterGenre.toLowerCase()))
+				act.genres
+					.filter((genre) => {
+						if (typeof genre.toLowerCase === 'function') {
+							return true;
+						} else {
+							console.log(act);
+							return false;
+						}
+					})
+					.some((genre) => genre.toLowerCase().includes(filterGenre.toLowerCase()))
 		)
 		.map((act) => act.spotifyId);
 
@@ -106,15 +115,13 @@
 	}
 </script>
 
-<svelte:window on:onActChange={setActiveAct} />
-
 <div id="acts">
 	{#if filteredActs.length > 0}
 		<ul id="act-grid">
 			{#each acts as act, i}
 				<li
 					in:fade
-					style="background-image: url({act.images?.at(-1)?.url})"
+					style={act.images?.at(-1) ? `background-image: url(${act.images?.at(-1)?.url})` : ''}
 					on:click={() => setActiveAct(act.spotifyId)}
 					class:hidden={!filteredActs.includes(act.spotifyId)}
 					class:active={$activeActStore === act.spotifyId}

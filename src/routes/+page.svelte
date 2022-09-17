@@ -13,7 +13,6 @@
 		const parsedHash = new URLSearchParams(
 			window.location.hash.substring(1) // skip the first char (#)
 		);
-		console.log(parsedHash.entries());
 		if (parsedHash.has('access_token')) {
 			const accessToken = parsedHash.get('access_token') || '';
 			auth.updateAccessToken(accessToken);
@@ -24,7 +23,6 @@
 		}
 		if (parsedHash.has('expires_in')) {
 			const expiresIn = Number(parsedHash.has('expires_in') || 0);
-			console.log(expiresIn);
 			const expiryDate = new Date();
 			expiryDate.setSeconds(expiryDate.getSeconds() + expiresIn);
 			auth.updateExpiryDate(expiryDate);
@@ -56,6 +54,7 @@
 									<li class="gig">
 										<a href="/{year}/{gig}.json">
 											{gig}
+											"/{year}/{gig}.json"
 										</a>
 									</li>
 								{/each}

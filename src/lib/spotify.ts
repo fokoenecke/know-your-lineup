@@ -66,6 +66,7 @@ export function setupWebPlayer(
 	trackEndedCB: () => void
 ): Spotify.Player {
 	let lastState: Spotify.PlaybackState;
+	let lastTrack: Spotify.Track;
 
 	const player = new Spotify.Player({
 		name: 'Web Playback SDK Quick Start Player',
@@ -87,20 +88,25 @@ export function setupWebPlayer(
 	});
 
 	player.addListener('player_state_changed', (state) => {
-		const current_track = state.track_window.current_track;
-		currentTrackCB(current_track);
-		console.log(state);
-		if (
-			lastState &&
-			state.track_window.previous_tracks.find(
-				(x) => x.id === state.track_window.current_track.id
-			) &&
-			!lastState.paused &&
-			state.paused
-		) {
-			trackEndedCB();
+		if (state) {
+			const current_track = state.track_window.current_track;
+			if (current_track.id !== lastTrack?.id) {
+				console.log('new track:', current_track.name);
+				currentTrackCB(current_track);
+				lastTrack = current_track;
+			}
+			if (
+				lastState &&
+				state.track_window.previous_tracks.find(
+					(x) => x.id === state.track_window.current_track.id
+				) &&
+				!lastState.paused &&
+				state.paused
+			) {
+				trackEndedCB();
+			}
+			lastState = state;
 		}
-		lastState = state;
 	});
 
 	player.addListener('initialization_error', ({ message }) => {

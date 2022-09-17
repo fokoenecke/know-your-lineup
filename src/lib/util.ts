@@ -48,7 +48,7 @@ export async function searchForActsRBF(acts: string) {
 	for (const act of actsToUpdate) {
 		try {
 			const artist = await searchForArtist(act.name);
-			await sleep(300);
+			await sleep(200);
 			if (artist.name.toLowerCase() !== act.name.toLowerCase()) {
 				console.log('ARTIST NAME NOT MATCHING INPUT!!!');
 				foundArtists.push({
@@ -89,7 +89,7 @@ export async function updateActs(jsonActs: string) {
 	const foundArtists: RBFArtist[] = [];
 	for (const act of actsToUpdate.acts) {
 		const artist = await getArtist(act.spotifyId);
-		await sleep(300);
+		await sleep(200);
 		console.log(artist);
 		foundArtists.push({ rbfID: act.rbfId, ...artist });
 	}

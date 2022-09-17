@@ -16,6 +16,7 @@
 	let deviceId: string;
 	let activeTrack: boolean = false;
 	let activeArtistId: string;
+	let loading = false;
 
 	onMount(() => {
 		window.onSpotifyWebPlaybackSDKReady = () => {
@@ -26,6 +27,7 @@
 				},
 				(track) => {
 					currentTrack = track;
+					loading = false;
 				},
 				() => {
 					console.log('ending track');
@@ -63,6 +65,7 @@
 			const nextTrack = playlist.next();
 			console.log('playing', nextTrack?.name, 'as next track');
 			if (nextTrack) {
+				loading = true;
 				playTrack(nextTrack as SpotifyTrack, nextTrack.randomPosition, sleepDuration);
 				activeArtistId = nextTrack.artistId;
 			}
@@ -97,14 +100,16 @@
 
 <div id="playing">
 	{#if activeTrack}
-		<h3
-			class="pointable"
-			on:click={() => {
-				activeActStore.set(activeArtistId);
-			}}
-		>
-			{currentTrack?.artists.map((artist) => artist.name).join(', ')} - {currentTrack?.name}
-		</h3>
+		{#if loading}<h3>loading...</h3>{:else}
+			<h3
+				class="pointable"
+				on:click={() => {
+					activeActStore.set(activeArtistId);
+				}}
+			>
+				{currentTrack?.artists.map((artist) => artist.name).join(', ')} - {currentTrack?.name}
+			</h3>
+		{/if}
 	{/if}
 	<div id="controls">
 		<div on:click={togglePlay} class="pointable">
