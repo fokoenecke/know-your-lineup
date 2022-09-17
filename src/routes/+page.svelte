@@ -54,7 +54,6 @@
 									<li class="gig">
 										<a href="/{year}/{gig}.json">
 											{gig}
-											"/{year}/{gig}.json"
 										</a>
 									</li>
 								{/each}
