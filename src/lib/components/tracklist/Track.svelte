@@ -40,7 +40,6 @@
 		transition: 0.1s ease-in-out;
 		backface-visibility: hidden;
 		position: relative;
-		height: 100%;
 	}
 
 	.track:hover,
@@ -56,7 +55,7 @@
 
 	.cover {
 		border: 1px solid black;
-		height: 100%;
+		aspect-ratio: 1/1;
 
 		filter: grayscale(60%);
 		-webkit-filter: grayscale(60%);
