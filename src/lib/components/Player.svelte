@@ -6,6 +6,9 @@
 	$: trackIsPlaying = player && $activeTrack === undefined && !player.paused;
 	$: $activeTrack, run();
 	const run = () => {
+		if (!player) {
+			return;
+		}
 		if (trackIsPlaying) {
 			player.pause();
 			player.src = '';
