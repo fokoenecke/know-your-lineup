@@ -44,12 +44,7 @@
 	}
 
 	.upper {
-		display: flex;
-		flex-direction: column;
 		position: relative;
-		width: 100%;
-		aspect-ratio: 1/1;
-		backface-visibility: hidden;
 	}
 
 	.track:hover,
@@ -59,13 +54,14 @@
 		z-index: 1;
 	}
 
-	.track.active {
-		transform: scale(1.02) translateZ(-1px);
+	.track.active .upper {
+		transform: scale(1.025) translateZ(-1px);
 	}
 
 	.cover {
 		border: 1px solid black;
 		backface-visibility: hidden;
+		width: 100%;
 		aspect-ratio: 1/1;
 
 		object-fit: cover;
@@ -91,7 +87,7 @@
 	}
 
 	.title {
-		padding-top: 0.25rem;
+		padding-top: 0.2rem;
 
 		white-space: nowrap;
 		overflow: hidden;
