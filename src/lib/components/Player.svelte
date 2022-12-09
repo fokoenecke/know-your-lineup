@@ -3,15 +3,13 @@
 
 	let player: HTMLAudioElement;
 
-	const play = () => {
-		player.play();
-	};
-
 	$: $activeTrack, run();
 	const run = () => {
 		if (player && !player.paused && $activeTrack === undefined) {
 			player.pause();
 			player.src = '';
+		} else {
+			player.load();
 		}
 	};
 </script>
@@ -32,10 +30,7 @@
 		controls
 		type="audio/mpeg"
 		loop={true}
-	>
-		<track kind="captions" />
-	</audio>
-	<button on:click={play}>play</button>
+	/>
 </div>
 
 <style>
