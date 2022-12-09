@@ -47,6 +47,11 @@
 		grid-auto-flow: dense;
 	}
 
+	.tracklist li {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.dummy-track {
 		display: flex;
 		flex-direction: column;

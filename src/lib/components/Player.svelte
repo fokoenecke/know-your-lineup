@@ -1,22 +1,12 @@
 <script lang="ts">
+	import { sleep } from '$lib/sleep';
 	import { activeTrack } from '$lib/stores/activeTrack';
 
 	let player: HTMLAudioElement;
-	let canPlay = false;
-
-	function playWhenReady() {
-		if (canPlay === false) {
-			console.log('player not ready');
-			window.setTimeout(playWhenReady, 25);
-		} else {
-			player.play();
-		}
-	}
 
 	$: trackIsPlaying = player && $activeTrack === undefined && !player.paused;
 	$: $activeTrack, run();
 	const run = async () => {
-		canPlay = false;
 		if (!player) {
 			return;
 		}
@@ -24,7 +14,8 @@
 			player.pause();
 			player.src = '';
 		} else {
-			playWhenReady();
+			sleep(25);
+			player.play();
 		}
 	};
 </script>
@@ -39,8 +30,6 @@
 	<audio
 		bind:this={player}
 		on:canplay={() => {
-			console.log('canplay');
-			canPlay = true;
 			player.play();
 		}}
 		src={$activeTrack?.preview}

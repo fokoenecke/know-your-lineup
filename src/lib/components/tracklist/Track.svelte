@@ -70,6 +70,7 @@
 	.track.active > .cover {
 		box-shadow: 0 0 0.5rem black;
 		filter: grayscale(0%);
+
 		-webkit-filter: grayscale(0%);
 		-moz-filter: grayscale(0%);
 		-ms-filter: grayscale(0%);
