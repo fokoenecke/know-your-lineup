@@ -13,7 +13,7 @@ Ann Wilson
 Arch Enemy
 As I Lay Dying
 ASP
-At The Gates
+At the Gates
 Attic109
 Auðn
 Badcast
@@ -21,7 +21,7 @@ Bai Bang
 Behemoth
 Below Zero
 Belphegor
-Black Inhale
+BLACK INHALE
 Bleed From Within
 Blind Channel
 Blind Man's Gun
@@ -60,7 +60,7 @@ Gluecifer
 Godzilla In The Kitchen
 Grailknights
 Grave Digger
-Gwar
+GWAR
 Gwendydd
 Hämatom
 Haggard
@@ -69,7 +69,7 @@ HARDBONE
 Hatebreed
 Höhner
 Hypocrisy
-Ill Niño
+Ill NiñO
 Impartial
 Imperium Dekadenz
 Implore
@@ -83,18 +83,16 @@ Kadavar
 Kampfar
 Kissin' Dynamite
 Knasterbart
-SSK
 Komodo
 Lamentari
 Last Addiction
 Letzte Instanz
 Lacuna Coil
-Life Of Agony
+Life of Agony
 Lordi
 Lost Society
 LOUDNESS
 Lucifer
-Majak
 Mambo Kurt
 Manntra
 Mantar
@@ -108,20 +106,18 @@ Mit ohne Strom
 Monoman
 Moonspell
 Mork
-Motörizer
 Mr. Irish Bastard
 Mütze Katze
-Mythraeum
 Nasty
 Neaera
 NECK CEMETERY
 New Model Army
 Nothgard
 Onslaught
-Orca
+ORCA
 Orden Ogan
 Overkill
-OZZIE
+Ozzie
 Pay Pandora
 Pensen Paletti
 Perturbator
@@ -153,7 +149,6 @@ Stratovarius
 Striker
 Suicidal Angels
 Surgical Strike
-Tarja
 The Drift
 The Halo Effect
 The Iron Maidens
@@ -181,7 +176,7 @@ Vomitory
 Vulture
 Valve Human Waste Firefighters
 Walkways
-WASTELAND
+Wasteland
 Watch Out Stampede
 Welcome Dystopia
 Wind Rose

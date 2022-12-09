@@ -21,15 +21,16 @@
 	on:click={() => toggleActivate(track)}
 	on:keypress={() => toggleActivate(track)}
 >
-	<img class="cover" src={track.album.cover_medium} alt={track.title_short} />
-
-	<i class="icon">
-		{#if isActiveTrack}
-			<StopCircleIcon size="3x" />
-		{:else}
-			<PlayCircleIcon size="3x" />
-		{/if}
-	</i>
+	<div class="upper">
+		<img class="cover" src={track.album.cover_medium} alt={track.title_short} />
+		<i class="icon">
+			{#if isActiveTrack}
+				<StopCircleIcon size="3x" />
+			{:else}
+				<PlayCircleIcon size="3x" />
+			{/if}
+		</i>
+	</div>
 	<span class="title">{track.title_short}</span>
 </div>
 
@@ -38,26 +39,34 @@
 		display: flex;
 		flex-direction: column;
 		transition: 0.1s ease-in-out;
+		backface-visibility: hidden;
+		width: 100%;
+	}
+
+	.upper {
+		display: flex;
+		flex-direction: column;
 		position: relative;
 		width: 100%;
+		aspect-ratio: 1/1;
+		backface-visibility: hidden;
 	}
 
 	.track:hover,
 	.track.active:hover {
 		cursor: pointer;
-		transform: scale(1.05);
+		transform: scale(1.05) translateZ(1px);
 		z-index: 1;
 		visibility: visible;
 	}
 
-	.track.active > .cover {
+	.track.active .cover {
 		cursor: pointer;
-		transform: scale(1.05);
+		transform: scale(1.05) translateZ(-1px);
 	}
 
 	.cover {
 		border: 1px solid black;
-		aspect-ratio: 1/1;
 		backface-visibility: hidden;
 
 		filter: grayscale(60%);
@@ -69,8 +78,8 @@
 		transition: 0.1s ease-in-out;
 	}
 
-	.track:hover > .cover,
-	.track.active > .cover {
+	.track:hover .cover,
+	.track.active .cover {
 		box-shadow: 0 0 0.5rem black;
 		filter: grayscale(0%);
 
@@ -95,15 +104,17 @@
 	.icon {
 		visibility: hidden;
 		position: absolute;
-		top: 0.3rem;
-		left: 0.3rem;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		color: white;
+		display: flex;
 
 		filter: drop-shadow(0 0 3px black);
 	}
 
-	.track:hover > .icon,
-	.track.active > .icon {
+	.track:hover .icon,
+	.track.active .icon {
 		visibility: visible;
 	}
 </style>

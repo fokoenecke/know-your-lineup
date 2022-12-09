@@ -72,7 +72,15 @@ export const searchArtist = async (artistName: string): Promise<DeezerArtist> =>
 	if (!searchResult || searchResult.data.length === 0) {
 		return Promise.reject();
 	}
-	return searchResult.data[0];
+
+	let foundArtist = searchResult.data[0];
+	for (let artist of searchResult.data) {
+		if (artist.name.toLowerCase() === artistName.toLowerCase()) {
+			foundArtist = artist;
+			break;
+		}
+	}
+	return foundArtist;
 };
 
 export const search = async (query: string, type: string): Promise<DeezerArtistSearchResult> => {
