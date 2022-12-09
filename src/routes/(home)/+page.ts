@@ -7,11 +7,12 @@ export const load: PageLoad = () => {
 		gigsInYear: {
 			2022: [
 				{ name: 'Hurricane', slug: 'hurricane' },
-				{ name: 'Wacken', slug: 'wacken' }
+				{ name: 'Wacken Open Air', slug: 'wacken' }
 			],
 			2023: [
 				{ name: 'Hurricane', slug: 'hurricane' },
-				{ name: 'Wacken', slug: 'wacken' }
+				{ name: 'MS Dockville', slug: 'dockville' },
+				{ name: 'Wacken Open Air', slug: 'wacken' }
 			]
 		}
 	};
