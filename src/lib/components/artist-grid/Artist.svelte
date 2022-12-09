@@ -23,12 +23,12 @@
 	.artist:hover,
 	.artist.selected:hover {
 		cursor: pointer;
-		transform: scale(1.1) translateZ(1px);
+		transform: scale(1.05);
 		z-index: 1;
 	}
 
 	.artist.selected {
-		transform: scale(1.05) translateZ(1px);
+		transform: scale(1.025);
 	}
 
 	.picture {

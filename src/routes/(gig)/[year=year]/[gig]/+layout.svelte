@@ -28,7 +28,7 @@
 <style>
 	.grid-container {
 		display: grid;
-		grid-template-rows: 6vh 88vh 6vh;
+		grid-template-rows: 8vh 86vh 6vh;
 	}
 
 	.header {

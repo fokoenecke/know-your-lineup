@@ -45,14 +45,14 @@
 	.track:hover,
 	.track.active:hover {
 		cursor: pointer;
-		transform: scale(1.1) translateZ(1px);
+		transform: scale(1.05);
 		z-index: 1;
 		visibility: visible;
 	}
 
 	.track.active > .cover {
 		cursor: pointer;
-		transform: scale(1.1) translateZ(1px);
+		transform: scale(1.05);
 	}
 
 	.cover {
