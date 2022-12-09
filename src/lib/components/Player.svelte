@@ -14,7 +14,8 @@
 			player.pause();
 			player.src = '';
 		} else {
-			sleep(25);
+			player.src = $activeTrack?.preview || '';
+			player.load();
 			player.play();
 		}
 	};
@@ -27,16 +28,7 @@
 			<span class="title">{$activeTrack?.title}</span>
 		{/if}
 	</div>
-	<audio
-		bind:this={player}
-		on:canplay={() => {
-			player.play();
-		}}
-		src={$activeTrack?.preview}
-		controls
-		type="audio/mpeg"
-		loop={true}
-	/>
+	<audio bind:this={player} controls type="audio/mpeg" loop={true} />
 </div>
 
 <style>
