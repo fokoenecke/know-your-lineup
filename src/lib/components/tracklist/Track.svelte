@@ -55,19 +55,20 @@
 	.track:hover,
 	.track.active:hover {
 		cursor: pointer;
-		transform: scale(1.05) translateZ(1px);
+		transform: scale(1.05) translateZ(-1px);
 		z-index: 1;
-		visibility: visible;
 	}
 
-	.track.active .cover {
-		cursor: pointer;
-		transform: scale(1.05) translateZ(-1px);
+	.track.active {
+		transform: scale(1.02) translateZ(-1px);
 	}
 
 	.cover {
 		border: 1px solid black;
 		backface-visibility: hidden;
+		aspect-ratio: 1/1;
+
+		object-fit: cover;
 
 		filter: grayscale(60%);
 		-webkit-filter: grayscale(60%);

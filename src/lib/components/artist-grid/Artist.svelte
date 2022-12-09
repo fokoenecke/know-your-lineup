@@ -28,7 +28,7 @@
 	}
 
 	.artist.selected {
-		transform: scale(1.025) translateZ(-1px);
+		transform: scale(1.02) translateZ(-1px);
 	}
 
 	.picture {
