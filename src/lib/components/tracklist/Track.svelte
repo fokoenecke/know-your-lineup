@@ -38,8 +38,8 @@
 		display: flex;
 		flex-direction: column;
 		transition: 0.1s ease-in-out;
-		backface-visibility: hidden;
 		position: relative;
+		width: 100%;
 	}
 
 	.track:hover,
@@ -47,15 +47,18 @@
 		cursor: pointer;
 		transform: scale(1.1) translateZ(1px);
 		z-index: 1;
+		visibility: visible;
 	}
 
 	.track.active > .cover {
-		transform: scale(1.05) translateZ(1px);
+		cursor: pointer;
+		transform: scale(1.1) translateZ(1px);
 	}
 
 	.cover {
 		border: 1px solid black;
 		aspect-ratio: 1/1;
+		backface-visibility: hidden;
 
 		filter: grayscale(60%);
 		-webkit-filter: grayscale(60%);

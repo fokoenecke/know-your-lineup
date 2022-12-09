@@ -48,8 +48,8 @@
 	}
 
 	.tracklist li {
+		width: 100%;
 		display: flex;
-		flex-direction: column;
 	}
 
 	.dummy-track {
