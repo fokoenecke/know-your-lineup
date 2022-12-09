@@ -1,9 +1,14 @@
 <script lang="ts">
 	import '../../../../css/normalize.css';
 	import '../../../../css/style.css';
+
 	import { page } from '$app/stores';
 
+	import type { PageData } from './$types';
+
 	import Player from '$lib/components/Player.svelte';
+
+	export let data: PageData;
 </script>
 
 <div class="grid-container">
@@ -11,7 +16,7 @@
 		<div class="center">
 			<div class="title">
 				<a href="/" class="name">know your lineup</a>
-				<span class="gig">{$page.params.year} / {$page.params.gig}</span>
+				<span class="gig">{$page.params.year} / {data.name}</span>
 			</div>
 		</div>
 	</div>

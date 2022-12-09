@@ -1,5 +1,5 @@
 import type { DeezerArtist } from '$lib/deezer';
-import type { PageServerLoad } from './$types';
+import type { LayoutServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
 interface Gig {
@@ -7,7 +7,7 @@ interface Gig {
 	artists: DeezerArtist[];
 }
 
-export const load: PageServerLoad = async ({ fetch, params }) => {
+export const load: LayoutServerLoad = async ({ fetch, params }) => {
 	try {
 		const response = await fetch(`/${params.year}/${params.gig}.json`);
 		const gig = (await response.json()) as Gig;

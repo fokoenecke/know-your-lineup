@@ -12,6 +12,7 @@ export const load: PageLoad = () => {
 			2023: [
 				{ name: 'Hurricane', slug: 'hurricane' },
 				{ name: 'MS Dockville', slug: 'dockville' },
+				{ name: 'Rock am Ring', slug: 'rar' },
 				{ name: 'Wacken Open Air', slug: 'wacken' }
 			]
 		}
