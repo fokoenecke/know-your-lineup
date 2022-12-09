@@ -3,9 +3,10 @@
 
 	let player: HTMLAudioElement;
 
+	$: trackIsPlaying = player && $activeTrack === undefined && !player.paused;
 	$: $activeTrack, run();
 	const run = () => {
-		if (player && !player.paused && $activeTrack === undefined) {
+		if (trackIsPlaying) {
 			player.pause();
 			player.src = '';
 		} else {
