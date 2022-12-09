@@ -3,6 +3,10 @@
 
 	let player: HTMLAudioElement;
 
+	const play = () => {
+		player.play();
+	};
+
 	$: $activeTrack, run();
 	const run = () => {
 		if (player && !player.paused && $activeTrack === undefined) {
@@ -31,6 +35,7 @@
 	>
 		<track kind="captions" />
 	</audio>
+	<button on:click={play}>play</button>
 </div>
 
 <style>

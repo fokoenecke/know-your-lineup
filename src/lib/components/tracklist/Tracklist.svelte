@@ -47,6 +47,10 @@
 		grid-auto-flow: dense;
 	}
 
+	.tracklist li {
+		aspect-ratio: 1/1;
+	}
+
 	.dummy-track {
 		display: flex;
 		flex-direction: column;
