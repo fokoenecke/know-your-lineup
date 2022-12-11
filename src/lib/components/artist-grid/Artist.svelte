@@ -1,13 +1,18 @@
 <script lang="ts">
 	import type { DeezerArtist } from '$lib/deezer';
+	import { LoaderIcon } from 'svelte-feather-icons';
 
 	export let artist: DeezerArtist;
 	export let selected: boolean;
+	export let loading: boolean = false;
 </script>
 
 <div class="artist" class:selected>
 	<img class="picture" src={artist.picture_big} alt={artist.name} />
 	<span class="name">{artist.name}</span>
+	{#if loading}
+		<span class="loading"><LoaderIcon size="2x" /></span>
+	{/if}
 </div>
 
 <style>
@@ -32,7 +37,7 @@
 	}
 
 	.picture {
-		border: 1px solid black;
+		border: 1px solid #101010;
 		height: 100%;
 
 		object-fit: cover;
@@ -65,5 +70,31 @@
 		text-align: left;
 		text-shadow: 0 0 0.3rem black;
 		padding: 0.25rem 0.5rem 0 0.5rem;
+	}
+
+	.loading {
+		color: white;
+		text-shadow: 0 0 1rem black;
+
+		display: flex;
+		position: absolute;
+		bottom: 0.5rem;
+		right: 0.5rem;
+
+		animation-name: spin;
+		animation-duration: 4000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+
+		filter: drop-shadow(0 0 3px black);
+	}
+
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
 	}
 </style>

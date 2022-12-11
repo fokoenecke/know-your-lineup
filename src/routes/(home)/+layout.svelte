@@ -4,52 +4,66 @@
 </script>
 
 <div class="grid-container">
-	<div class="header">
-		<div class="center"><span class="title">know your lineup</span></div>
-	</div>
-	<div class="main">
+	<header class="header">
+		<div class="center">
+			<div class="title">
+				<span class="name">know your lineup</span>
+			</div>
+		</div>
+	</header>
+	<main class="main">
 		<div class="center"><slot /></div>
-	</div>
-	<div class="footer">
+	</main>
+	<footer class="footer">
 		<div class="center" />
-	</div>
+	</footer>
 </div>
 
 <style>
 	.grid-container {
 		display: grid;
-		grid-template-rows: 6vh 88vh 6vh;
+		height: 100vh;
+		grid-template-rows: auto 1fr auto;
 	}
 
-	.header {
-		border-bottom: 1px solid black;
+	header {
+		border-bottom: 1px solid #101010;
 		display: flex;
 		align-items: center;
 		justify-content: left;
 	}
 
 	.title {
-		height: 100%;
 		display: flex;
 		align-items: center;
-		padding-left: 1rem;
+		padding: 0.5rem 0 0.5rem 1rem;
+
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+	}
+	.name {
 		font-size: x-large;
 		font-weight: bold;
 	}
 
-	.main {
-		overflow: scroll;
+	main {
+		overflow-y: auto;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	main::-webkit-scrollbar {
+		display: none;
 	}
 
 	.center {
 		flex: 1;
-		height: 100%;
 		max-width: 1200px;
 		margin: 0 auto 0 auto;
 	}
 
-	.footer {
-		border-top: 1px solid black;
-		height: 100%;
+	footer {
+		border-top: 1px solid #101010;
 	}
 </style>

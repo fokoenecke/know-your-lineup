@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { sleep } from '$lib/sleep';
 	import { activeTrack } from '$lib/stores/activeTrack';
 
 	let player: HTMLAudioElement;
@@ -24,24 +23,37 @@
 <div class="player">
 	<div class="track-info">
 		{#if $activeTrack}
-			<span class="artist-name">{$activeTrack?.artist.name}</span> -
-			<span class="title">{$activeTrack?.title}</span>
+			<span>
+				{$activeTrack?.artist.name} - <span class="title">{$activeTrack?.title}</span>
+			</span>
+		{:else}
+			<span><wbr /></span>
 		{/if}
 	</div>
-	<audio bind:this={player} controls type="audio/mpeg" loop={true} />
 </div>
+<audio bind:this={player} controls type="audio/mpeg" loop={true} />
 
 <style>
 	.player {
 		padding: 0 1rem 0 1rem;
-		height: 100%;
-		display: flex;
-		align-items: center;
 	}
+
 	.track-info {
-		flex: 1;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		display: inline-grid;
+		grid-template-columns: 1fr;
+	}
+	.track-info > span {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
 	}
 	.title {
 		font-weight: bold;
+	}
+
+	audio {
+		display: none;
 	}
 </style>

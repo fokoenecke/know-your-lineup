@@ -12,39 +12,39 @@
 </script>
 
 <div class="grid-container">
-	<div class="header">
+	<header class="header">
 		<div class="center">
 			<div class="title">
 				<a href="/" class="name">know your lineup</a>
 				<span class="gig">{$page.params.year} / {data.name}</span>
 			</div>
 		</div>
-	</div>
-	<div class="main">
+	</header>
+	<main class="main">
 		<div class="center"><slot /></div>
-	</div>
-	<div class="footer">
+	</main>
+	<footer class="footer">
 		<div class="center">
 			<Player />
 		</div>
-	</div>
+	</footer>
 </div>
 
 <style>
 	.grid-container {
 		display: grid;
-		grid-template-rows: 8vh 86vh 6vh;
+		height: 100vh;
+		grid-template-rows: auto 1fr auto;
 	}
 
-	.header {
-		border-bottom: 1px solid black;
+	header {
+		border-bottom: 1px solid #101010;
 		display: flex;
 		align-items: center;
 		justify-content: left;
 	}
 
 	.title {
-		height: 100%;
 		display: flex;
 		align-items: center;
 		padding-left: 1rem;
@@ -62,19 +62,23 @@
 		content: '<< ';
 	}
 
-	.main {
-		overflow: scroll;
+	main {
+		overflow-y: auto;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	main::-webkit-scrollbar {
+		display: none;
 	}
 
 	.center {
 		flex: 1;
-		height: 100%;
 		max-width: 1200px;
 		margin: 0 auto 0 auto;
 	}
 
-	.footer {
-		border-top: 1px solid black;
-		height: 100%;
+	footer {
+		border-top: 1px solid #101010;
 	}
 </style>

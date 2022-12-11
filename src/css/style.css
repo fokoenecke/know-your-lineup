@@ -1,6 +1,7 @@
 @import '@fontsource/blinker';
 body {
 	font-family: 'Blinker', sans-serif;
+	color: #101010;
 }
 a {
 	color: inherit; /* blue colors for links too */

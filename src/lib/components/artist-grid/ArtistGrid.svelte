@@ -1,11 +1,14 @@
 <script lang="ts">
 	import type { DeezerArtist } from '$lib/deezer';
+	import { tick } from 'svelte';
 	import Artist from './Artist.svelte';
 	import ArtistCard from './ArtistCard.svelte';
 
 	export let artists: DeezerArtist[];
 
 	let artistCard: ArtistCard;
+	let loadingArtistCard: boolean = false;
+
 	let artistRefs: HTMLLIElement[] = [];
 
 	let selectedArtist: number;
@@ -24,10 +27,15 @@
 				anchor: target.nextElementSibling ?? undefined,
 				intro: true
 			});
+			loadingArtistCard = true;
+			artistCard.$on('loaded', async () => {
+				await tick();
+				loadingArtistCard = false;
+				target.scrollIntoView({ behavior: 'smooth' });
+			});
 		} else {
 			selectedArtist = -1;
 		}
-		target.scrollIntoView({ behavior: 'smooth' });
 	};
 </script>
 
@@ -39,7 +47,11 @@
 			on:click={() => selectArtist(artist)}
 			on:keypress={() => selectArtist(artist)}
 		>
-			<Artist {artist} selected={artist.id === selectedArtist} />
+			<Artist
+				{artist}
+				selected={artist.id === selectedArtist}
+				loading={selectedArtist === artist.id && loadingArtistCard}
+			/>
 		</li>{/each}
 </ul>
 
@@ -49,7 +61,7 @@
 
 		display: grid;
 		grid-gap: 1rem;
-		grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
 		grid-auto-rows: minmax(min-content, max-content);
 		grid-auto-flow: dense;
 	}
