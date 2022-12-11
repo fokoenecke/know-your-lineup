@@ -33,7 +33,7 @@
 	}
 
 	.artist.selected {
-		transform: scale(1.02) translateZ(-1px);
+		transform: scale(1.03) translateZ(-1px);
 	}
 
 	.picture {
@@ -42,11 +42,11 @@
 
 		object-fit: cover;
 
-		filter: grayscale(60%);
-		-webkit-filter: grayscale(60%);
-		-moz-filter: grayscale(60%);
-		-ms-filter: grayscale(60%);
-		-o-filter: grayscale(60%);
+		filter: grayscale(65%);
+		-webkit-filter: grayscale(65%);
+		-moz-filter: grayscale(65%);
+		-ms-filter: grayscale(65%);
+		-o-filter: grayscale(65%);
 
 		transition: 0.1s ease-in-out;
 	}
@@ -62,7 +62,7 @@
 
 	.name {
 		color: white;
-		font-size: larger;
+		font-size: x-large;
 
 		position: absolute;
 		top: 0;

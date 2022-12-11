@@ -87,8 +87,6 @@
 	}
 
 	.title {
-		padding-top: 0.2rem;
-
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;

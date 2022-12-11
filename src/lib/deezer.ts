@@ -89,3 +89,10 @@ export const search = async (query: string, type: string): Promise<DeezerArtistS
 	);
 	return artistSearchResult.json();
 };
+
+export const hasSameTitle = (track: DeezerTrack) => {
+	return (otherTrack: DeezerTrack) =>
+		otherTrack.title_short.toLowerCase() === track.title_short.toLowerCase();
+};
+export const isFirstOccurrence = (track: DeezerTrack, trackIndex: number, tracks: DeezerTrack[]) =>
+	tracks.findIndex(hasSameTitle(track)) === trackIndex;

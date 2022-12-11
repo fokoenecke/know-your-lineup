@@ -1,6 +1,5 @@
 <script lang="ts">
-	import type { DeezerArtist, DeezerTrack } from '$lib/deezer';
-	import { fade } from 'svelte/transition';
+	import { isFirstOccurrence, type DeezerArtist, type DeezerTrack } from '$lib/deezer';
 	import { createEventDispatcher } from 'svelte';
 
 	const dispatch = createEventDispatcher();
@@ -11,9 +10,9 @@
 
 	const fetchTracklist = (async () => {
 		const response = await fetch(`/api/proxy/${encodeURIComponent(artist.tracklist)}`);
-		const repsonseData = await response.json();
-
-		return repsonseData.data as DeezerTrack[];
+		const tracks = (await response.json()).data as DeezerTrack[];
+		const filteredTracks = tracks.filter(isFirstOccurrence);
+		return filteredTracks;
 	})();
 
 	fetchTracklist.then(() => dispatch('loaded'));
@@ -23,7 +22,7 @@
 	<ul class="tracklist">
 		{#each tracklist.splice(0, 16) as track (track.id)}
 			{#if track.preview}
-				<li transition:fade={{ duration: 100 }}>
+				<li>
 					<Track {track} />
 				</li>
 			{/if}
