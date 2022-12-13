@@ -11,10 +11,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/c81de8ebf5b3c5a5130c7caeee90b746/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/c81de8ebf5b3c5a5130c7caeee90b746/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 10,
-			"nb_fan": 8906,
+			"nb_fan": 8918,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/7683228/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464]
 		},
 		{
 			"id": 3580,
@@ -26,10 +27,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/780fc97addac9f6b7a6d601d0f6d2217/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/780fc97addac9f6b7a6d601d0f6d2217/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 22,
-			"nb_fan": 429804,
+			"nb_fan": 430015,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/3580/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 11593489,
@@ -41,10 +43,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/e4994436be535ae2b658819281602b5e/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/e4994436be535ae2b658819281602b5e/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 21,
-			"nb_fan": 1658,
+			"nb_fan": 1660,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/11593489/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 190275,
@@ -56,10 +59,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/f1801361513da82e5b7e04666a3b8cd3/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/f1801361513da82e5b7e04666a3b8cd3/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 8,
-			"nb_fan": 14628,
+			"nb_fan": 14643,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/190275/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 5010303,
@@ -71,10 +75,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/4eac3fbe75933592b06a62740ca540d5/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/4eac3fbe75933592b06a62740ca540d5/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 21,
-			"nb_fan": 56654,
+			"nb_fan": 56699,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/5010303/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 12466006,
@@ -86,10 +91,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/6b6a09d5b79a960ea69fefb5b288b983/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/6b6a09d5b79a960ea69fefb5b288b983/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 7,
-			"nb_fan": 3035,
+			"nb_fan": 3043,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/12466006/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152]
 		},
 		{
 			"id": 4023,
@@ -101,10 +107,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/c97f62db389554bab797ea12e9b5308f/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/c97f62db389554bab797ea12e9b5308f/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 9,
-			"nb_fan": 23844,
+			"nb_fan": 23850,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/4023/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 107295,
@@ -116,10 +123,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/2ef40d1875368318054e60a3e45bfd99/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/2ef40d1875368318054e60a3e45bfd99/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 8,
-			"nb_fan": 518,
+			"nb_fan": 522,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/107295/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 132]
 		},
 		{
 			"id": 6459,
@@ -131,10 +139,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/1f9035171ed2150cc2b72e00f55d6583/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/1f9035171ed2150cc2b72e00f55d6583/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 24,
-			"nb_fan": 80985,
+			"nb_fan": 81042,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/6459/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [85, 152]
 		},
 		{
 			"id": 12013,
@@ -146,10 +155,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/1d4d5449eeac6a58a0be532768ffb396/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/1d4d5449eeac6a58a0be532768ffb396/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 29,
-			"nb_fan": 109161,
+			"nb_fan": 109221,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/12013/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152, 173]
 		},
 		{
 			"id": 77905,
@@ -164,7 +174,8 @@
 			"nb_fan": 310,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/77905/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": []
 		},
 		{
 			"id": 4611,
@@ -176,10 +187,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/d0f16c07cb5bc9a8a29ac68b38632b3f/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/d0f16c07cb5bc9a8a29ac68b38632b3f/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 25,
-			"nb_fan": 252959,
+			"nb_fan": 253085,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/4611/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [85, 152]
 		},
 		{
 			"id": 5550954,
@@ -191,10 +203,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/bcd5cc720dd299917410711acddc7cc1/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/bcd5cc720dd299917410711acddc7cc1/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 11,
-			"nb_fan": 1858,
+			"nb_fan": 1859,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/5550954/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 3435,
@@ -206,10 +219,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/175dd604d642109d8cf149575b56dca0/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/175dd604d642109d8cf149575b56dca0/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 17,
-			"nb_fan": 98873,
+			"nb_fan": 98911,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/3435/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 2717771,
@@ -221,26 +235,27 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ff107a6ae2d73d39e5a883245fbdc3e4/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ff107a6ae2d73d39e5a883245fbdc3e4/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 12,
-			"nb_fan": 6270,
+			"nb_fan": 6278,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/2717771/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 85, 152]
 		},
 		{
-			"id": "92203912",
+			"id": 92203912,
 			"name": "Ghøstkid",
 			"link": "https://www.deezer.com/artist/92203912",
-			"share": "https://www.deezer.com/artist/92203912?utm_source=deezer&utm_content=artist-92203912&utm_term=0_1670759334&utm_medium=web",
 			"picture": "https://api.deezer.com/artist/92203912/image",
 			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/cb7d9ebd89fc6d1566895b8697f1e510/56x56-000000-80-0-0.jpg",
 			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/cb7d9ebd89fc6d1566895b8697f1e510/250x250-000000-80-0-0.jpg",
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/cb7d9ebd89fc6d1566895b8697f1e510/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/cb7d9ebd89fc6d1566895b8697f1e510/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 11,
-			"nb_fan": 2507,
+			"nb_fan": 2513,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/92203912/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 106]
 		},
 		{
 			"id": 10990094,
@@ -255,7 +270,8 @@
 			"nb_fan": 142,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/10990094/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 1004734,
@@ -267,10 +283,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/fd3e291bf71ffb4db94850b57d3c767b/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/fd3e291bf71ffb4db94850b57d3c767b/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 22,
-			"nb_fan": 10329,
+			"nb_fan": 10351,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/1004734/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464, 522, 132, 85]
 		},
 		{
 			"id": 10677,
@@ -282,10 +299,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/768956664f89652852df05d84d0dd713/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/768956664f89652852df05d84d0dd713/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 14,
-			"nb_fan": 20498,
+			"nb_fan": 20519,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/10677/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 931,
@@ -297,10 +315,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/497e5e47668e13a3fb1312a4754eaa65/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/497e5e47668e13a3fb1312a4754eaa65/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 41,
-			"nb_fan": 3143100,
+			"nb_fan": 3144821,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/931/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152]
 		},
 		{
 			"id": 2544561,
@@ -312,10 +331,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/8932bc10bcf0fdfe4fad178d20a2c6c0/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/8932bc10bcf0fdfe4fad178d20a2c6c0/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 20,
-			"nb_fan": 62344,
+			"nb_fan": 62422,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/2544561/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 132]
 		},
 		{
 			"id": 180036,
@@ -327,10 +347,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/27ddc138e2145603086abdf85c8d3315/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/27ddc138e2145603086abdf85c8d3315/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 24,
-			"nb_fan": 24211,
+			"nb_fan": 24233,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/180036/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, -1]
 		},
 		{
 			"id": 5599,
@@ -342,10 +363,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ed480b285783603a207ab5b462030a43/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ed480b285783603a207ab5b462030a43/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 20,
-			"nb_fan": 34273,
+			"nb_fan": 34277,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/5599/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 132]
 		},
 		{
 			"id": 2124,
@@ -357,10 +379,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/8800181c3030f494ab13ae43a9699b5f/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/8800181c3030f494ab13ae43a9699b5f/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 33,
-			"nb_fan": 295483,
+			"nb_fan": 295636,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/2124/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 2310591,
@@ -375,7 +398,8 @@
 			"nb_fan": 715,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/2310591/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 13490307,
@@ -387,10 +411,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/4cf2bf0e1e00a23a4862819f108d6df7/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/4cf2bf0e1e00a23a4862819f108d6df7/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 9,
-			"nb_fan": 611,
+			"nb_fan": 613,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/13490307/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464]
 		},
 		{
 			"id": 309541,
@@ -402,10 +427,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/c6938a66b52f2900114ce4c26f2a761c/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/c6938a66b52f2900114ce4c26f2a761c/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 30,
-			"nb_fan": 19929,
+			"nb_fan": 19965,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/309541/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 45]
 		},
 		{
 			"id": 3487,
@@ -417,10 +443,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/cff12b4ef973a62d886d69bf056941ec/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/cff12b4ef973a62d886d69bf056941ec/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 37,
-			"nb_fan": 1452518,
+			"nb_fan": 1453437,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/3487/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152]
 		},
 		{
 			"id": 1693145,
@@ -432,10 +459,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/808a4ead9d33bd2155778abedb22cfd3/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/808a4ead9d33bd2155778abedb22cfd3/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 11,
-			"nb_fan": 10229,
+			"nb_fan": 10244,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/1693145/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464]
 		},
 		{
 			"id": 97473,
@@ -447,10 +475,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/10f42836b13fb1be62ee1e98dc5bb154/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/10f42836b13fb1be62ee1e98dc5bb154/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 48,
-			"nb_fan": 740,
+			"nb_fan": 743,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/97473/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 522, 132, 95, -1, 85, 106, 116, 113]
 		},
 		{
 			"id": 7264,
@@ -462,10 +491,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/096dae19502d6815e04370911df14a60/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/096dae19502d6815e04370911df14a60/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 18,
-			"nb_fan": 23020,
+			"nb_fan": 23031,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/7264/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [-1, 464, 132, 144, 116]
 		},
 		{
 			"id": 8852,
@@ -477,10 +507,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/b2cea370a0099038ac9dd89c21f8bf25/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/b2cea370a0099038ac9dd89c21f8bf25/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 29,
-			"nb_fan": 46708,
+			"nb_fan": 46761,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/8852/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 95, 116]
 		},
 		{
 			"id": 997649,
@@ -492,10 +523,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ff198958f87a889d8a5ba05b5fc92bff/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ff198958f87a889d8a5ba05b5fc92bff/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 17,
-			"nb_fan": 7240,
+			"nb_fan": 7246,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/997649/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 152, -1]
 		},
 		{
 			"id": 182911,
@@ -507,10 +539,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/41b88ba274e2b0b5155bc3e285a19e19/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/41b88ba274e2b0b5155bc3e285a19e19/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 17,
-			"nb_fan": 18630,
+			"nb_fan": 18644,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/182911/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464, 85]
 		},
 		{
 			"id": 78856,
@@ -522,25 +555,27 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/82f12719b02b5a7c5a5e43d399d7377c/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/82f12719b02b5a7c5a5e43d399d7377c/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 19,
-			"nb_fan": 13000,
+			"nb_fan": 13007,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/78856/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152]
 		},
 		{
 			"id": 15991,
 			"name": "The Real McKenzies",
 			"link": "https://www.deezer.com/artist/15991",
 			"picture": "https://api.deezer.com/artist/15991/image",
-			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/c6d86860ad9ed291fe5dedfbf5e054de/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/c6d86860ad9ed291fe5dedfbf5e054de/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/c6d86860ad9ed291fe5dedfbf5e054de/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/c6d86860ad9ed291fe5dedfbf5e054de/1000x1000-000000-80-0-0.jpg",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/9d73c584b5ab11430e4984e52ed1da2e/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/9d73c584b5ab11430e4984e52ed1da2e/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/9d73c584b5ab11430e4984e52ed1da2e/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/9d73c584b5ab11430e4984e52ed1da2e/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 18,
-			"nb_fan": 16889,
+			"nb_fan": 16904,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/15991/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [85, 152]
 		},
 		{
 			"id": 1245,
@@ -552,10 +587,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/02a9979e29b87c3f230bac28439021a7/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/02a9979e29b87c3f230bac28439021a7/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 41,
-			"nb_fan": 316826,
+			"nb_fan": 317009,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/1245/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 3972541,
@@ -567,10 +603,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ade2f87038a63f4373dd33c3dad97c3f/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ade2f87038a63f4373dd33c3dad97c3f/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 29,
-			"nb_fan": 105826,
+			"nb_fan": 105885,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/3972541/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [98, -1, 173, 132]
 		},
 		{
 			"id": 1690105,
@@ -582,10 +619,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/e7952bb701187c5d0fd7a5b38922a408/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/e7952bb701187c5d0fd7a5b38922a408/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 17,
-			"nb_fan": 62870,
+			"nb_fan": 62936,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/1690105/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, -1]
 		},
 		{
 			"id": 9987672,
@@ -597,10 +635,11 @@
 			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/dea460d881ac91e16175e79f88421861/500x500-000000-80-0-0.jpg",
 			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/dea460d881ac91e16175e79f88421861/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 18,
-			"nb_fan": 2197,
+			"nb_fan": 2205,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/9987672/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [152, 464]
 		},
 		{
 			"id": 11586509,
@@ -615,7 +654,8 @@
 			"nb_fan": 312,
 			"radio": true,
 			"tracklist": "https://api.deezer.com/artist/11586509/top?limit=50",
-			"type": "artist"
+			"type": "artist",
+			"genres": [464, 85]
 		}
 	]
 }

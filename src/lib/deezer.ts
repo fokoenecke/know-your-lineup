@@ -13,6 +13,7 @@ export interface DeezerArtist {
 	radio: boolean;
 	tracklist: string;
 	type: string;
+	genres?: number[];
 }
 
 export interface DeezerAlbum {
@@ -57,6 +58,35 @@ export interface DeezerArtistSearchResult {
 	data: DeezerArtist[];
 }
 
+const genreMap: Map<number, string> = new Map([
+	[0, 'Alle'],
+	[132, 'Pop'],
+	[457, 'Hörbücher'],
+	[116, 'Rap/Hip Hop'],
+	[152, 'Rock'],
+	[113, 'Dance'],
+	[165, 'R&B'],
+	[85, 'Alternative'],
+	[106, 'Electro'],
+	[466, 'Folk'],
+	[144, 'Reggae'],
+	[129, 'Jazz'],
+	[84, 'Country'],
+	[98, 'Klassik'],
+	[173, 'Filme/Videospiele'],
+	[464, 'Heavy Metal'],
+	[169, 'Soul & Funk'],
+	[2, 'Afrikanische Musik'],
+	[16, 'Asiatische Musik'],
+	[153, 'Blues'],
+	[75, 'Brasilianische Musik'],
+	[459, 'Deutsche Musik'],
+	[81, 'Indische Musik'],
+	[95, 'Kids'],
+	[197, 'Lateinamerikanische Musik'],
+	[522, 'Singer & Songwriter']
+]);
+
 export const fetchArtist = async (): Promise<DeezerArtist> => {
 	const artist = await fetch('https://api.deezer.com/artist/27');
 	return artist.json();
@@ -96,3 +126,7 @@ export const hasSameTitle = (track: DeezerTrack) => {
 };
 export const isFirstOccurrence = (track: DeezerTrack, trackIndex: number, tracks: DeezerTrack[]) =>
 	tracks.findIndex(hasSameTitle(track)) === trackIndex;
+
+export const getGenreName = (id: number): string => {
+	return genreMap.has(id) ? String(genreMap.get(id)) : 'unknown';
+};

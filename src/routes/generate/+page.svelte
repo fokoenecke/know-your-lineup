@@ -26,6 +26,7 @@
 						genres.add(album.genre_id);
 					}
 					//console.log(genres);
+					foundArtist.genres = Array.from(genres);
 					resolvedArtists.push(foundArtist);
 				}
 			} catch (err) {
