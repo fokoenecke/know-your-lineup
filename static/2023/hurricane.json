@@ -802,20 +802,21 @@
 			"genres": [85]
 		},
 		{
-			"id": 127537,
+			"id": "116376022",
 			"name": "Razz",
-			"link": "https://www.deezer.com/artist/127537",
-			"picture": "https://api.deezer.com/artist/127537/image",
-			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/e3cdd335b4fa8321e03d355832dce7c3/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/e3cdd335b4fa8321e03d355832dce7c3/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/e3cdd335b4fa8321e03d355832dce7c3/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/e3cdd335b4fa8321e03d355832dce7c3/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 1,
-			"nb_fan": 3086,
+			"link": "https://www.deezer.com/artist/116376022",
+			"share": "https://www.deezer.com/artist/116376022?utm_source=deezer&utm_content=artist-116376022&utm_term=0_1670939730&utm_medium=web",
+			"picture": "https://api.deezer.com/artist/116376022/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/a1c33ac07233301863aa075b5f3a5901/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/a1c33ac07233301863aa075b5f3a5901/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/a1c33ac07233301863aa075b5f3a5901/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/a1c33ac07233301863aa075b5f3a5901/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 21,
+			"nb_fan": 208,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/127537/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/116376022/top?limit=50",
 			"type": "artist",
-			"genres": [132]
+			"genres": [85]
 		},
 		{
 			"id": 8779700,
