@@ -1,5 +1,4 @@
 <script lang="ts">
-	import type { DeezerArtist } from '$lib/deezer';
 	import { sorting, type SortingAttribute } from '$lib/stores/sorting';
 
 	const toggleSortDirection = () => {
@@ -41,8 +40,6 @@
 		align-items: center;
 
 		font-size: large;
-		padding-left: 1rem;
-		padding-right: 1rem;
 		transition: 0.1s ease-in-out;
 
 		padding-top: 0.25rem;

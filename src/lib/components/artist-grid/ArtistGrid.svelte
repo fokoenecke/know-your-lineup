@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { DeezerArtist } from '$lib/deezer';
+	import { sleep } from '$lib/sleep';
+	import { filtering } from '$lib/stores/filtering';
 	import { sorting } from '$lib/stores/sorting';
 	import { tick } from 'svelte';
 	import { flip } from 'svelte/animate';
@@ -9,55 +11,55 @@
 
 	export let artists: DeezerArtist[];
 
+	const shuffleDuration = 200;
+
 	let artistCard: ArtistCard;
 	let loadingArtistCard: boolean = false;
 
 	let artistRefs: HTMLLIElement[] = [];
-
 	let selectedArtist: DeezerArtist | undefined;
 
 	$: sortAscending = $sorting.direction === 'ascending';
 
-	$: artists = artists.sort((a, b) => {
-		let aValue = a[$sorting.attribute];
-		if (typeof aValue === 'string') {
-			aValue = String(aValue).toLowerCase();
+	$: filteredArtists = artists
+		.sort((a, b) => {
+			let aValue = a[$sorting.attribute];
+			if (typeof aValue === 'string') {
+				aValue = String(aValue).toLowerCase();
+			}
+			let bValue = b[$sorting.attribute];
+			if (typeof bValue === 'string') {
+				bValue = String(bValue).toLowerCase();
+			}
+			return aValue > bValue
+				? sortAscending
+					? 1
+					: -1
+				: bValue > aValue
+				? sortAscending
+					? -1
+					: 1
+				: 0;
+		})
+		.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre));
+
+	$: $filtering.genre, run();
+	const run = async () => {
+		artistCard?.$destroy();
+		await tick();
+		if (
+			selectedArtist?.genres?.includes($filtering.genre) ||
+			(selectedArtist && $filtering.genre === 0)
+		) {
+			await reloadArtistCard();
 		}
-		let bValue = b[$sorting.attribute];
-		if (typeof bValue === 'string') {
-			bValue = String(bValue).toLowerCase();
-		}
-		return aValue > bValue
-			? sortAscending
-				? 1
-				: -1
-			: bValue > aValue
-			? sortAscending
-				? -1
-				: 1
-			: 0;
-	});
+	};
 
 	const selectArtist = async (artist: DeezerArtist) => {
 		artistCard?.$destroy();
-		const target = artistRefs[artist.id];
-
 		if (selectedArtist?.id !== artist.id) {
 			selectedArtist = artist;
-			artistCard = new ArtistCard({
-				props: {
-					artist: selectedArtist
-				},
-				target: target.parentElement ?? document.documentElement,
-				anchor: target.nextElementSibling ?? undefined,
-				intro: true
-			});
-			loadingArtistCard = true;
-			artistCard.$on('loaded', async () => {
-				await tick();
-				loadingArtistCard = false;
-				target.scrollIntoView({ behavior: 'smooth' });
-			});
+			await reloadArtistCard();
 		} else {
 			selectedArtist = undefined;
 		}
@@ -79,8 +81,9 @@
 			});
 			loadingArtistCard = true;
 			artistCard.$on('loaded', async () => {
-				await tick();
 				loadingArtistCard = false;
+				await tick();
+				await sleep(shuffleDuration);
 				target.scrollIntoView({ behavior: 'smooth' });
 			});
 		}
@@ -88,9 +91,9 @@
 </script>
 
 <ul class="artist-grid">
-	{#each artists as artist (artist.id)}
+	{#each filteredArtists as artist (artist.id)}
 		<li
-			animate:flip={{ duration: () => 500 * Math.random() }}
+			animate:flip={{ duration: () => shuffleDuration * Math.random() }}
 			id={artist.id.toString()}
 			bind:this={artistRefs[artist.id]}
 			on:click={() => selectArtist(artist)}
@@ -101,7 +104,8 @@
 				selected={artist.id === selectedArtist?.id}
 				loading={selectedArtist?.id === artist.id && loadingArtistCard}
 			/>
-		</li>{/each}
+		</li>
+	{/each}
 </ul>
 
 <style>

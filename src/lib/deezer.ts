@@ -59,7 +59,7 @@ export interface DeezerArtistSearchResult {
 }
 
 const genreMap: Map<number, string> = new Map([
-	[0, 'Alle'],
+	[0, 'All'],
 	[132, 'Pop'],
 	[457, 'Hörbücher'],
 	[116, 'Rap/Hip Hop'],

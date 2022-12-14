@@ -58,7 +58,7 @@
 		padding: 1rem;
 		background-color: #f0f0f0;
 		border: 1px solid #101010;
-		visibility: hidden;
+		display: none;
 	}
 
 	.genres {
@@ -74,7 +74,7 @@
 	}
 
 	.loaded {
-		visibility: visible;
+		display: inherit;
 	}
 
 	.artist-info > h1 {
