@@ -1298,20 +1298,20 @@
 			"genres": [132, 85]
 		},
 		{
-			"id": 130356412,
-			"name": "blond",
-			"link": "https://www.deezer.com/artist/130356412",
-			"picture": "https://api.deezer.com/artist/130356412/image",
-			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/00f39d691a482f715d762bef01850d80/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/00f39d691a482f715d762bef01850d80/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/00f39d691a482f715d762bef01850d80/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/00f39d691a482f715d762bef01850d80/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 5,
-			"nb_fan": 263,
+			"id": "134178",
+			"name": "Blond",
+			"link": "https://www.deezer.com/artist/134178",
+			"picture": "https://api.deezer.com/artist/134178/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/5d9ac0eade68534f7a76a0e8e74eb9d9/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/5d9ac0eade68534f7a76a0e8e74eb9d9/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/5d9ac0eade68534f7a76a0e8e74eb9d9/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/5d9ac0eade68534f7a76a0e8e74eb9d9/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 18,
+			"nb_fan": 1300,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/130356412/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/134178/top?limit=50",
 			"type": "artist",
-			"genres": [132]
+			"genred": [132]
 		}
 	]
 }
