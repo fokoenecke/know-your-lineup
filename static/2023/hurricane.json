@@ -995,20 +995,20 @@
 			"genres": [152, 85]
 		},
 		{
-			"id": 4359429,
-			"name": "OBS",
-			"link": "https://www.deezer.com/artist/4359429",
-			"picture": "https://api.deezer.com/artist/4359429/image",
-			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/ac61251e59afdd8881a1ac26e7cb2045/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/ac61251e59afdd8881a1ac26e7cb2045/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ac61251e59afdd8881a1ac26e7cb2045/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ac61251e59afdd8881a1ac26e7cb2045/1000x1000-000000-80-0-0.jpg",
+			"id": 809167,
+			"name": "Ostblockschlampen",
+			"link": "https://www.deezer.com/artist/809167",
+			"picture": "https://api.deezer.com/artist/809167/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/a6b9df1655bdc9863e5b7ba4aa8d039f/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/a6b9df1655bdc9863e5b7ba4aa8d039f/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/a6b9df1655bdc9863e5b7ba4aa8d039f/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/a6b9df1655bdc9863e5b7ba4aa8d039f/1000x1000-000000-80-0-0.jpg",
 			"nb_album": 15,
-			"nb_fan": 275,
+			"nb_fan": 30425,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/4359429/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/809167/top?limit=50",
 			"type": "artist",
-			"genres": [106, 113, 85, 116, 2, 197, 132, 152]
+			"genres": [113, 106]
 		},
 		{
 			"id": 1682313,
