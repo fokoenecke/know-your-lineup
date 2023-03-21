@@ -1043,20 +1043,20 @@
 			"genres": [152, 464]
 		},
 		{
-			"id": 36400612,
-			"name": "DMA’S",
-			"link": "https://www.deezer.com/artist/36400612",
-			"picture": "https://api.deezer.com/artist/36400612/image",
-			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/700970ada78fcdd6156c093e1a9afaa7/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/700970ada78fcdd6156c093e1a9afaa7/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/700970ada78fcdd6156c093e1a9afaa7/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/700970ada78fcdd6156c093e1a9afaa7/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 0,
-			"nb_fan": 3,
+			"id": "5521088",
+			"name": "DMA's",
+			"link": "https://www.deezer.com/artist/5521088",
+			"picture": "https://api.deezer.com/artist/5521088/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/deea1f46e1211227621e203672c058ca/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/deea1f46e1211227621e203672c058ca/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/deea1f46e1211227621e203672c058ca/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/deea1f46e1211227621e203672c058ca/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 46,
+			"nb_fan": 9532,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/36400612/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/5521088/top?limit=50",
 			"type": "artist",
-			"genres": []
+			"genres": [85]
 		},
 		{
 			"id": 1006153,
