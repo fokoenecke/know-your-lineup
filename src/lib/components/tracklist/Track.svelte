@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { PlayCircleIcon, StopCircleIcon } from 'svelte-feather-icons';
+	import { PlayCircle, StopCircle } from 'lucide-svelte';
 	import type { DeezerTrack } from '$lib/deezer';
 	import { activeTrack } from '$lib/stores/activeTrack';
 
@@ -25,9 +25,9 @@
 		<img class="cover" src={track.album.cover_medium} alt={track.title_short} />
 		<i class="icon">
 			{#if isActiveTrack}
-				<StopCircleIcon size="3x" />
+				<StopCircle size="60" />
 			{:else}
-				<PlayCircleIcon size="3x" />
+				<PlayCircle size="60" />
 			{/if}
 		</i>
 	</div>

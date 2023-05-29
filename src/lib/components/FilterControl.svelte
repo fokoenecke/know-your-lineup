@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { getGenreName } from '$lib/deezer';
 	import { filtering } from '$lib/stores/filtering';
-	import { ArrowLeftCircleIcon, ChevronsLeftIcon, RotateCcwIcon } from 'svelte-feather-icons';
+
+	import { ChevronsLeft } from 'lucide-svelte';
 	import { fly } from 'svelte/transition';
 
 	let filterGenres: number[] = [0, 132, 152, 85, 106, 113, 466, 144, 464, 116, 522];
@@ -36,8 +37,9 @@
 			class="genre">{getGenreName($filtering.genre)}</span
 		>
 	{/key}
+
 	<span on:keydown={unrotateFilterGenre} on:click={unrotateFilterGenre} class="back"
-		><ChevronsLeftIcon size="0.9x" /></span
+		><ChevronsLeft size="20" /></span
 	>
 	<span>artists</span>
 </div>
@@ -61,7 +63,7 @@
 	}
 
 	.back {
-		padding: 0.25rem 0.3rem 0.25rem 0.3rem;
+		padding: 0.15rem 0.2rem 0.15rem 0.2rem;
 		margin-right: 0.5rem;
 	}
 

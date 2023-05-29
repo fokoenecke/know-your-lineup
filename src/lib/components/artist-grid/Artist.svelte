@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { DeezerArtist } from '$lib/deezer';
-	import { LoaderIcon } from 'svelte-feather-icons';
+	import { LoaderIcon } from 'lucide-svelte';
 
 	export let artist: DeezerArtist;
 	export let selected: boolean;
@@ -11,7 +11,7 @@
 	<img class="picture" src={artist.picture_big} alt={artist.name} />
 	<span class="name">{artist.name}</span>
 	{#if loading}
-		<span class="loading"><LoaderIcon size="2x" /></span>
+		<span class="loading"><LoaderIcon size="30" /></span>
 	{/if}
 </div>
 
