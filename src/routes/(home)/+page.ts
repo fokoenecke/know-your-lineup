@@ -14,7 +14,8 @@ export const load: PageLoad = () => {
 				{ name: 'MS Dockville', slug: 'dockville' },
 				{ name: 'Rock am Ring', slug: 'rar' },
 				{ name: 'Wacken Open Air', slug: 'wacken' },
-				{ name: 'Seepogo', slug: 'seepogo' }
+				{ name: 'Seepogo', slug: 'seepogo' },
+				{ name: 'Vainstream Rockfest', slug: 'vainstream' }
 			]
 		}
 	};
