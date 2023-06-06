@@ -15,7 +15,8 @@ export const load: PageLoad = () => {
 				{ name: 'Rock am Ring', slug: 'rar' },
 				{ name: 'Wacken Open Air', slug: 'wacken' },
 				{ name: 'Seepogo', slug: 'seepogo' },
-				{ name: 'Vainstream Rockfest', slug: 'vainstream' }
+				{ name: 'Vainstream Rockfest', slug: 'vainstream' },
+				{ name: 'Reeperbahn Festival', slug: 'reeperbahn' }
 			]
 		}
 	};
