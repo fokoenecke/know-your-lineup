@@ -224,6 +224,21 @@
 			"tracklist": "https://api.deezer.com/artist/52266582/top?limit=50",
 			"type": "artist",
 			"genres": [85]
+		},
+		{
+			"id": "441085",
+			"name": "WONK UNIT",
+			"link": "https://www.deezer.com/artist/441085",
+			"picture": "https://api.deezer.com/artist/441085/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/ee2bb30fbdd8a3347649aa326c7e6f16/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/ee2bb30fbdd8a3347649aa326c7e6f16/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/ee2bb30fbdd8a3347649aa326c7e6f16/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/ee2bb30fbdd8a3347649aa326c7e6f16/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 21,
+			"nb_fan": 638,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/441085/top?limit=50",
+			"type": "artist"
 		}
 	]
 }
