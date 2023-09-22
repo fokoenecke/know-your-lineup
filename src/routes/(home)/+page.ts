@@ -17,7 +17,8 @@ export const load: PageLoad = () => {
 				{ name: 'Seepogo', slug: 'seepogo' },
 				{ name: 'Vainstream Rockfest', slug: 'vainstream' },
 				{ name: 'Reeperbahn Festival', slug: 'reeperbahn' }
-			]
+			],
+			2024: [{ name: 'Hurricane', slug: 'hurricane' }]
 		}
 	};
 };

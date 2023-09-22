@@ -1,0 +1,69 @@
+{
+	"name": "Hurricane",
+	"artists": [
+		{
+			"id": 384236,
+			"name": "Ed Sheeran",
+			"link": "https://www.deezer.com/artist/384236",
+			"picture": "https://api.deezer.com/artist/384236/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/9a48125860984a1ae5b96975e040664a/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/9a48125860984a1ae5b96975e040664a/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/9a48125860984a1ae5b96975e040664a/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/9a48125860984a1ae5b96975e040664a/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 129,
+			"nb_fan": 19241030,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/384236/top?limit=50",
+			"type": "artist",
+			"genres": [132, 113]
+		},
+		{
+			"id": 35,
+			"name": "Avril Lavigne",
+			"link": "https://www.deezer.com/artist/35",
+			"picture": "https://api.deezer.com/artist/35/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/d023a1ee7ed842b304f36aef210c5aba/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/d023a1ee7ed842b304f36aef210c5aba/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/d023a1ee7ed842b304f36aef210c5aba/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/d023a1ee7ed842b304f36aef210c5aba/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 38,
+			"nb_fan": 5369681,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/35/top?limit=50",
+			"type": "artist",
+			"genres": [85, 132]
+		},
+		{
+			"id": 12874,
+			"name": "Bring Me the Horizon",
+			"link": "https://www.deezer.com/artist/12874",
+			"picture": "https://api.deezer.com/artist/12874/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/527dc7541af4eba73fbe2b26133f3e09/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/527dc7541af4eba73fbe2b26133f3e09/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/527dc7541af4eba73fbe2b26133f3e09/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/527dc7541af4eba73fbe2b26133f3e09/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 43,
+			"nb_fan": 1043041,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/12874/top?limit=50",
+			"type": "artist",
+			"genres": [152, 464, 85, 113, 132, 116, 106]
+		},
+		{
+			"id": 5095554,
+			"name": "K.I.Z",
+			"link": "https://www.deezer.com/artist/5095554",
+			"picture": "https://api.deezer.com/artist/5095554/image",
+			"picture_small": "https://e-cdns-images.dzcdn.net/images/artist/d7478c7c2845a6296405a1f0315e6f10/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://e-cdns-images.dzcdn.net/images/artist/d7478c7c2845a6296405a1f0315e6f10/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://e-cdns-images.dzcdn.net/images/artist/d7478c7c2845a6296405a1f0315e6f10/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://e-cdns-images.dzcdn.net/images/artist/d7478c7c2845a6296405a1f0315e6f10/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 29,
+			"nb_fan": 249031,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/5095554/top?limit=50",
+			"type": "artist",
+			"genres": [116]
+		}
+	]
+}
