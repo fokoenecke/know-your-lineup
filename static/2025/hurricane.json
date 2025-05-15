@@ -978,22 +978,6 @@
 			"genres": [152, 85]
 		},
 		{
-			"id": 13860855,
-			"name": "Kneecap",
-			"link": "https://www.deezer.com/artist/13860855",
-			"picture": "https://api.deezer.com/artist/13860855/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist/1b71a511784a72b14f2fe2fc5d403252/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/1b71a511784a72b14f2fe2fc5d403252/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist/1b71a511784a72b14f2fe2fc5d403252/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/1b71a511784a72b14f2fe2fc5d403252/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 18,
-			"nb_fan": 3189,
-			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/13860855/top?limit=50",
-			"type": "artist",
-			"genres": [116]
-		},
-		{
 			"id": 106394202,
 			"name": "Paris Paloma",
 			"link": "https://www.deezer.com/artist/106394202",
@@ -1408,6 +1392,22 @@
 			"tracklist": "https://api.deezer.com/artist/316969/top?limit=50",
 			"type": "artist",
 			"genres": [85, 116]
+		},
+		{
+			"id": 6306518,
+			"name": "Olli Schulz & Band",
+			"link": "https://www.deezer.com/artist/6306518",
+			"picture": "https://api.deezer.com/artist/6306518/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist//56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist//500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist//1000x1000-000000-80-0-0.jpg",
+			"nb_album": 0,
+			"nb_fan": 34,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/6306518/top?limit=50",
+			"type": "artist",
+			"genres": []
 		}
 	]
 }
