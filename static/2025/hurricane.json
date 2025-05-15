@@ -1394,20 +1394,20 @@
 			"genres": [85, 116]
 		},
 		{
-			"id": 6306518,
-			"name": "Olli Schulz & Band",
-			"link": "https://www.deezer.com/artist/6306518",
-			"picture": "https://api.deezer.com/artist/6306518/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist//56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist//500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist//1000x1000-000000-80-0-0.jpg",
-			"nb_album": 0,
-			"nb_fan": 34,
+			"id": 167356,
+			"name": "Olli Schulz",
+			"link": "https://www.deezer.com/artist/167356",
+			"picture": "https://api.deezer.com/artist/167356/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist/861c61eee5335985ddfc346f6534c623/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/861c61eee5335985ddfc346f6534c623/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist/861c61eee5335985ddfc346f6534c623/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/861c61eee5335985ddfc346f6534c623/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 21,
+			"nb_fan": 27771,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/6306518/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/167356/top?limit=50",
 			"type": "artist",
-			"genres": []
+			"genres": [522, 132, 85, 152]
 		}
 	]
 }
