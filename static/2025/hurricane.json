@@ -1392,6 +1392,22 @@
 			"tracklist": "https://api.deezer.com/artist/167356/top?limit=50",
 			"type": "artist",
 			"genres": [522, 132, 85, 152]
+		},
+		{
+			"id": 178410377,
+			"name": "Berq",
+			"link": "https://www.deezer.com/artist/178410377",
+			"picture": "https://api.deezer.com/artist/178410377/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist/66caed829b27efe7b43c7534c1f55f6b/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/66caed829b27efe7b43c7534c1f55f6b/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist/66caed829b27efe7b43c7534c1f55f6b/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/66caed829b27efe7b43c7534c1f55f6b/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 11,
+			"nb_fan": 9380,
+			"radio": true,
+			"tracklist": "https://api.deezer.com/artist/178410377/top?limit=50",
+			"type": "artist",
+			"genres": [132, 85]
 		}
 	]
 }
