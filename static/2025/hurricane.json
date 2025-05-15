@@ -130,22 +130,6 @@
 			"genres": [85, 152, 132, 113]
 		},
 		{
-			"id": 1777,
-			"name": "Zebrahead",
-			"link": "https://www.deezer.com/artist/1777",
-			"picture": "https://api.deezer.com/artist/1777/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist/ad28756545be81507c2744fcab2f2c8a/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/ad28756545be81507c2744fcab2f2c8a/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist/ad28756545be81507c2744fcab2f2c8a/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/ad28756545be81507c2744fcab2f2c8a/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 42,
-			"nb_fan": 52828,
-			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/1777/top?limit=50",
-			"type": "artist",
-			"genres": [152, 85, 132]
-		},
-		{
 			"id": 6928027,
 			"name": "Von Wegen Lisbeth",
 			"link": "https://www.deezer.com/artist/6928027",
