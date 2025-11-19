@@ -242,20 +242,20 @@
 			"genres": [152, 85]
 		},
 		{
-			"id": 149860522,
-			"name": "Roy Bianco",
-			"link": "https://www.deezer.com/artist/149860522",
-			"picture": "https://api.deezer.com/artist/149860522/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist//56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist//250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist//500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist//1000x1000-000000-80-0-0.jpg",
-			"nb_album": 0,
-			"nb_fan": 1,
+			"id": 87776002,
+			"name": "Roy Bianco & Die Abbrunzati Boys",
+			"link": "https://www.deezer.com/artist/87776002",
+			"picture": "https://api.deezer.com/artist/87776002/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist/406b3ade8a8aab8512572e0637a44ee2/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/406b3ade8a8aab8512572e0637a44ee2/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist/406b3ade8a8aab8512572e0637a44ee2/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/406b3ade8a8aab8512572e0637a44ee2/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 24,
+			"nb_fan": 3812,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/149860522/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/87776002/top?limit=50",
 			"type": "artist",
-			"genres": []
+			"genres": [85, 132]
 		},
 		{
 			"id": 96631832,
