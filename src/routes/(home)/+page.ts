@@ -26,7 +26,8 @@ export const load: PageLoad = () => {
 				{name: "Hurricane", slug: 'hurricane'}
 			],
 			2026: [
-				{name: "Hurricane", slug: 'hurricane'}
+				{name: "Hurricane", slug: 'hurricane'},
+				{name: "Amplifire", slug: 'amplifire'}
 			]
 		}
 	};
