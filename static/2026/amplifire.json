@@ -114,20 +114,20 @@
 			"genres": [85, 466, 116, 106, 113]
 		},
 		{
-			"id": 81731712,
-			"name": "Skirt",
-			"link": "https://www.deezer.com/artist/81731712",
-			"picture": "https://api.deezer.com/artist/81731712/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist/dc73b5f1b4b200c34cee58d46457def8/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/dc73b5f1b4b200c34cee58d46457def8/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist/dc73b5f1b4b200c34cee58d46457def8/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/dc73b5f1b4b200c34cee58d46457def8/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 23,
-			"nb_fan": 86,
+			"id": 333604661,
+			"name": "SKIRT.",
+			"link": "https://www.deezer.com/artist/333604661",
+			"picture": "https://api.deezer.com/artist/333604661/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist/1ddac5b84567b7c7d4191d09dcd1a6ca/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/1ddac5b84567b7c7d4191d09dcd1a6ca/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist/1ddac5b84567b7c7d4191d09dcd1a6ca/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/1ddac5b84567b7c7d4191d09dcd1a6ca/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 1,
+			"nb_fan": 21,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/81731712/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/333604661/top?limit=50",
 			"type": "artist",
-			"genres": [16]
+			"genres": [85]
 		},
 		{
 			"id": 64564,
