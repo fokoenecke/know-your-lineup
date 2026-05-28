@@ -41,15 +41,19 @@
 					: 1
 				: 0;
 		})
-		.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre));
+		.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre))
+		.filter((artist) => artist.name.toLowerCase().includes($filtering.name.toLowerCase()) || $filtering.name === "" );
 
 	$: $filtering.genre, run();
+	$: $filtering.name, run();
 	const run = async () => {
 		artistCard?.$destroy();
 		await tick();
 		if (
 			selectedArtist?.genres?.includes($filtering.genre) ||
-			(selectedArtist && $filtering.genre === 0)
+			(selectedArtist && $filtering.genre === 0) ||
+			selectedArtist?.name?.toLowerCase()?.includes($filtering.name) ||
+			(selectedArtist && $filtering.name === "")
 		) {
 			await reloadArtistCard();
 		}

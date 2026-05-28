@@ -7,16 +7,20 @@
 	import type { PageData } from './$types';
 
 	import Player from '$lib/components/Player.svelte';
+	import { filtering } from '$lib/stores/filtering';
 
 	export let data: PageData;
 </script>
 
 <div class="grid-container">
 	<header class="header">
-		<div class="center">
+		<div class="center header-container">
 			<div class="title">
 				<a href="/" class="name">know your lineup</a>
 				<span class="gig">{$page.params.year} / {data.name}</span>
+			</div>
+			<div class="search">
+			    <input type="text" on:input={(e) => filtering.setName(e.target.value)}>
 			</div>
 		</div>
 	</header>
@@ -46,6 +50,7 @@
 
 	.title {
 		display: flex;
+		flex: 1;
 		align-items: center;
 		padding-left: 1rem;
 
@@ -76,6 +81,21 @@
 		flex: 1;
 		max-width: 1200px;
 		margin: 0 auto 0 auto;
+	}
+
+	.header-container {
+        display: flex;
+        justify-content: space-between;
+	}
+
+	.search {
+        display: flex;
+        flex: 1;
+        justify-content: end;
+	}
+
+	.search input {
+	    margin: 1em;
 	}
 
 	footer {
