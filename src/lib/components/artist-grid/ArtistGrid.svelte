@@ -14,7 +14,7 @@
 	const shuffleDuration = 200;
 
 	let artistCard: ArtistCard;
-	let loadingArtistCard: boolean = false;
+	let loadingArtistCard = false;
 
 	let artistRefs: HTMLLIElement[] = [];
 	let selectedArtist: DeezerArtist | undefined;
@@ -42,7 +42,10 @@
 				: 0;
 		})
 		.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre))
-		.filter((artist) => artist.name.toLowerCase().includes($filtering.name.toLowerCase()) || $filtering.name === "" );
+		.filter(
+			(artist) =>
+				artist.name.toLowerCase().includes($filtering.name.toLowerCase()) || $filtering.name === ''
+		);
 
 	$: $filtering.genre, run();
 	$: $filtering.name, run();
@@ -53,7 +56,7 @@
 			selectedArtist?.genres?.includes($filtering.genre) ||
 			(selectedArtist && $filtering.genre === 0) ||
 			selectedArtist?.name?.toLowerCase()?.includes($filtering.name) ||
-			(selectedArtist && $filtering.name === "")
+			(selectedArtist && $filtering.name === '')
 		) {
 			await reloadArtistCard();
 		}
