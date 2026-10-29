@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { sorting, type SortingAttribute } from '#lib/stores/sorting.ts';
+	import { activateOnEnterOrSpace } from '#lib/activate.ts';
 
 	const toggleSortDirection = () => {
 		sorting.setDirection($sorting.direction === 'ascending' ? 'descending' : 'ascending');
@@ -28,7 +29,7 @@
 		class="attribute"
 		role="button"
 		tabindex="0"
-		onkeydown={rotateSortAttribute}
+		onkeydown={activateOnEnterOrSpace(rotateSortAttribute)}
 		onclick={rotateSortAttribute}
 	>
 		{sortLabels[$sorting.attribute].name}
@@ -37,7 +38,7 @@
 		class="direction"
 		role="button"
 		tabindex="0"
-		onkeydown={toggleSortDirection}
+		onkeydown={activateOnEnterOrSpace(toggleSortDirection)}
 		onclick={toggleSortDirection}
 	>
 		{sortLabels[$sorting.attribute][$sorting.direction]}

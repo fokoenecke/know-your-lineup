@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { getGenreName } from '#lib/deezer.ts';
+	import { activateOnEnterOrSpace } from '#lib/activate.ts';
 	import { filtering } from '#lib/stores/filtering.ts';
 
 	import { ChevronsLeft } from '@lucide/svelte';
@@ -32,14 +33,14 @@
 			in:fly={{ y: -20 }}
 			role="button"
 			tabindex="0"
-			onkeydown={rotateFilterGenre}
+			onkeydown={activateOnEnterOrSpace(rotateFilterGenre)}
 			onclick={rotateFilterGenre}
 			class="genre">{getGenreName($filtering.genre)}</span
 		>
 	{/key}
 
 	<span
-		onkeydown={unrotateFilterGenre}
+		onkeydown={activateOnEnterOrSpace(unrotateFilterGenre)}
 		onclick={unrotateFilterGenre}
 		role="button"
 		tabindex="0"

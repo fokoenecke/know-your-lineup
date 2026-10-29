@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { PlayCircle, StopCircle } from '@lucide/svelte';
+	import { activateOnEnterOrSpace } from '#lib/activate.ts';
 	import type { DeezerTrack } from '#lib/deezer.ts';
 	import { activeTrack } from '#lib/stores/activeTrack.ts';
 
@@ -21,7 +22,7 @@
 	role="button"
 	tabindex="0"
 	onclick={() => toggleActivate()}
-	onkeydown={() => toggleActivate()}
+	onkeydown={activateOnEnterOrSpace(toggleActivate)}
 >
 	<div class="upper">
 		<img class="cover" src={track.album.cover_medium} alt={track.title_short} />
@@ -62,7 +63,8 @@
 
 	.cover {
 		border: 1px solid black;
-		backface-visibility: hidden;
+		background-color: black;
+		display: block;
 		width: 100%;
 		aspect-ratio: 1/1;
 

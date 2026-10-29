@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { DeezerArtist } from '#lib/deezer.ts';
+	import { activateOnEnterOrSpace } from '#lib/activate.ts';
 	import { LoaderIcon } from '@lucide/svelte';
 
 	interface Props {
@@ -13,7 +14,14 @@
 	let { artist, selected, loading = false, onclick, onkeydown }: Props = $props();
 </script>
 
-<div class="artist" class:selected role="button" tabindex="0" {onclick} {onkeydown}>
+<div
+	class="artist"
+	class:selected
+	role="button"
+	tabindex="0"
+	{onclick}
+	onkeydown={activateOnEnterOrSpace(() => onkeydown?.())}
+>
 	<img class="picture" src={artist.picture_big} alt={artist.name} />
 	<span class="name">{artist.name}</span>
 	{#if loading}
