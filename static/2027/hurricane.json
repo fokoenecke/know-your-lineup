@@ -514,20 +514,20 @@
 			"genres": [113, 106, 85, 132]
 		},
 		{
-			"id": 136853512,
+			"id": 705,
 			"name": "Muse",
-			"link": "https://www.deezer.com/artist/136853512",
-			"picture": "https://api.deezer.com/artist/136853512/image",
-			"picture_small": "https://cdn-images.dzcdn.net/images/artist/10c4dc5d66432e9ef58601d603f8a510/56x56-000000-80-0-0.jpg",
-			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/10c4dc5d66432e9ef58601d603f8a510/250x250-000000-80-0-0.jpg",
-			"picture_big": "https://cdn-images.dzcdn.net/images/artist/10c4dc5d66432e9ef58601d603f8a510/500x500-000000-80-0-0.jpg",
-			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/10c4dc5d66432e9ef58601d603f8a510/1000x1000-000000-80-0-0.jpg",
-			"nb_album": 2,
-			"nb_fan": 56,
+			"link": "https://www.deezer.com/artist/705",
+			"picture": "https://api.deezer.com/artist/705/image",
+			"picture_small": "https://cdn-images.dzcdn.net/images/artist/cd7c5861be0009d3b75d4d3c069317a7/56x56-000000-80-0-0.jpg",
+			"picture_medium": "https://cdn-images.dzcdn.net/images/artist/cd7c5861be0009d3b75d4d3c069317a7/250x250-000000-80-0-0.jpg",
+			"picture_big": "https://cdn-images.dzcdn.net/images/artist/cd7c5861be0009d3b75d4d3c069317a7/500x500-000000-80-0-0.jpg",
+			"picture_xl": "https://cdn-images.dzcdn.net/images/artist/cd7c5861be0009d3b75d4d3c069317a7/1000x1000-000000-80-0-0.jpg",
+			"nb_album": 70,
+			"nb_fan": 5053655,
 			"radio": true,
-			"tracklist": "https://api.deezer.com/artist/136853512/top?limit=50",
+			"tracklist": "https://api.deezer.com/artist/705/top?limit=50",
 			"type": "artist",
-			"genres": [85, 132]
+			"genres": [85]
 		},
 		{
 			"id": 428675,
