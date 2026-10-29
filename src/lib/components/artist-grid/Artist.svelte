@@ -1,13 +1,19 @@
 <script lang="ts">
-	import type { DeezerArtist } from '$lib/deezer';
-	import { LoaderIcon } from 'lucide-svelte';
+	import type { DeezerArtist } from '#lib/deezer.ts';
+	import { LoaderIcon } from '@lucide/svelte';
 
-	export let artist: DeezerArtist;
-	export let selected: boolean;
-	export let loading: boolean = false;
+	interface Props {
+		artist: DeezerArtist;
+		selected: boolean;
+		loading?: boolean;
+		onclick?: () => void;
+		onkeydown?: () => void;
+	}
+
+	let { artist, selected, loading = false, onclick, onkeydown }: Props = $props();
 </script>
 
-<div class="artist" class:selected>
+<div class="artist" class:selected role="button" tabindex="0" {onclick} {onkeydown}>
 	<img class="picture" src={artist.picture_big} alt={artist.name} />
 	<span class="name">{artist.name}</span>
 	{#if loading}

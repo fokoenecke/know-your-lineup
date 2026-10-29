@@ -1,12 +1,14 @@
 <script lang="ts">
-	import { isFirstOccurrence, type DeezerArtist, type DeezerTrack } from '$lib/deezer';
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
+	import { isFirstOccurrence, type DeezerArtist, type DeezerTrack } from '#lib/deezer.ts';
 
 	import Track from './Track.svelte';
 
-	export let artist: DeezerArtist;
+	interface Props {
+		artist: DeezerArtist;
+		onloaded?: () => void;
+	}
+
+	let { artist, onloaded }: Props = $props();
 
 	const fetchTracklist = (async () => {
 		const response = await fetch(`/api/proxy/${encodeURIComponent(artist.tracklist)}`);
@@ -15,12 +17,12 @@
 		return filteredTracks;
 	})();
 
-	fetchTracklist.then(() => dispatch('loaded'));
+	fetchTracklist.then(() => onloaded?.());
 </script>
 
 {#await fetchTracklist then tracklist}
 	<ul class="tracklist">
-		{#each tracklist.splice(0, 16) as track (track.id)}
+		{#each tracklist.slice(0, 16) as track (track.id)}
 			{#if track.preview}
 				<li>
 					<Track {track} />

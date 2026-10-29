@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { PlayCircle, StopCircle } from 'lucide-svelte';
-	import type { DeezerTrack } from '$lib/deezer';
-	import { activeTrack } from '$lib/stores/activeTrack';
+	import { PlayCircle, StopCircle } from '@lucide/svelte';
+	import type { DeezerTrack } from '#lib/deezer.ts';
+	import { activeTrack } from '#lib/stores/activeTrack.ts';
 
-	export let track: DeezerTrack;
+	let { track }: { track: DeezerTrack } = $props();
 
-	$: isActiveTrack = track.id === $activeTrack?.id;
-	const toggleActivate = async (track: DeezerTrack) => {
+	const isActiveTrack = $derived(track.id === $activeTrack?.id);
+	const toggleActivate = () => {
 		if (!isActiveTrack) {
 			activeTrack.set(track);
 		} else {
@@ -18,8 +18,10 @@
 <div
 	class="track"
 	class:active={isActiveTrack}
-	on:click={() => toggleActivate(track)}
-	on:keypress={() => toggleActivate(track)}
+	role="button"
+	tabindex="0"
+	onclick={() => toggleActivate()}
+	onkeydown={() => toggleActivate()}
 >
 	<div class="upper">
 		<img class="cover" src={track.album.cover_medium} alt={track.title_short} />

@@ -1,56 +1,70 @@
 <script lang="ts">
-	import type { DeezerArtist } from '$lib/deezer';
-	import { sleep } from '$lib/sleep';
-	import { filtering } from '$lib/stores/filtering';
-	import { sorting } from '$lib/stores/sorting';
-	import { tick } from 'svelte';
+	import type { DeezerArtist } from '#lib/deezer.ts';
+	import { sleep } from '#lib/sleep.ts';
+	import { filtering } from '#lib/stores/filtering.ts';
+	import { sorting } from '#lib/stores/sorting.ts';
+	import { mount, tick, unmount } from 'svelte';
 	import { flip } from 'svelte/animate';
 
 	import Artist from './Artist.svelte';
 	import ArtistCard from './ArtistCard.svelte';
 
-	export let artists: DeezerArtist[];
+	let { artists }: { artists: DeezerArtist[] } = $props();
 
 	const shuffleDuration = 200;
 
-	let artistCard: ArtistCard;
-	let loadingArtistCard = false;
+	let artistCard: ReturnType<typeof mount> | null = null;
+	let loadingArtistCard = $state(false);
 
-	let artistRefs: HTMLLIElement[] = [];
-	let selectedArtist: DeezerArtist | undefined;
+	let artistRefs: HTMLLIElement[] = $state([]);
+	let selectedArtist: DeezerArtist | undefined = $state();
 
-	$: sortAscending = $sorting.direction === 'ascending';
+	const sortAscending = $derived($sorting.direction === 'ascending');
 
-	$: filteredArtists = artists
-		.sort((a, b) => {
-			let aValue = a[$sorting.attribute];
-			if (typeof aValue === 'string') {
-				aValue = String(aValue).toLowerCase();
-			}
-			let bValue = b[$sorting.attribute];
-			if (typeof bValue === 'string') {
-				bValue = String(bValue).toLowerCase();
-			}
-			return aValue > bValue
-				? sortAscending
-					? 1
-					: -1
-				: bValue > aValue
-				? sortAscending
-					? -1
-					: 1
-				: 0;
-		})
-		.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre))
-		.filter(
-			(artist) =>
-				artist.name.toLowerCase().includes($filtering.name.toLowerCase()) || $filtering.name === ''
-		);
+	const filteredArtists = $derived.by(() =>
+		[...artists]
+			.sort((a, b) => {
+				let aValue = a[$sorting.attribute];
+				if (typeof aValue === 'string') {
+					aValue = String(aValue).toLowerCase();
+				}
+				let bValue = b[$sorting.attribute];
+				if (typeof bValue === 'string') {
+					bValue = String(bValue).toLowerCase();
+				}
+				return aValue > bValue
+					? sortAscending
+						? 1
+						: -1
+					: bValue > aValue
+						? sortAscending
+							? -1
+							: 1
+						: 0;
+			})
+			.filter((artist) => $filtering.genre === 0 || artist.genres?.includes($filtering.genre))
+			.filter(
+				(artist) =>
+					artist.name.toLowerCase().includes($filtering.name.toLowerCase()) ||
+					$filtering.name === ''
+			)
+	);
 
-	$: $filtering.genre, run();
-	$: $filtering.name, run();
+	const destroyArtistCard = () => {
+		if (artistCard) {
+			unmount(artistCard);
+			artistCard = null;
+		}
+	};
+
+	$effect(() => {
+		void $filtering.genre;
+		void $filtering.name;
+		run();
+	});
+
 	const run = async () => {
-		artistCard?.$destroy();
+		destroyArtistCard();
 		await tick();
 		if (
 			selectedArtist?.genres?.includes($filtering.genre) ||
@@ -63,7 +77,7 @@
 	};
 
 	const selectArtist = async (artist: DeezerArtist) => {
-		artistCard?.$destroy();
+		destroyArtistCard();
 		if (selectedArtist?.id !== artist.id) {
 			selectedArtist = artist;
 			await reloadArtistCard();
@@ -72,27 +86,31 @@
 		}
 	};
 
-	$: $sorting, reloadArtistCard();
+	$effect(() => {
+		void $sorting;
+		reloadArtistCard();
+	});
+
 	const reloadArtistCard = async () => {
 		await tick();
 		if (selectedArtist) {
-			artistCard?.$destroy();
+			destroyArtistCard();
 			const target = artistRefs[selectedArtist.id];
-			artistCard = new ArtistCard({
+			artistCard = mount(ArtistCard, {
+				target: target?.parentElement ?? document.documentElement,
+				anchor: target?.nextElementSibling ?? undefined,
+				intro: true,
 				props: {
-					artist: selectedArtist
-				},
-				target: target.parentElement ?? document.documentElement,
-				anchor: target.nextElementSibling ?? undefined,
-				intro: true
+					artist: selectedArtist,
+					onloaded: async () => {
+						loadingArtistCard = false;
+						await tick();
+						await sleep(shuffleDuration);
+						target?.scrollIntoView({ behavior: 'smooth' });
+					}
+				}
 			});
 			loadingArtistCard = true;
-			artistCard.$on('loaded', async () => {
-				loadingArtistCard = false;
-				await tick();
-				await sleep(shuffleDuration);
-				target.scrollIntoView({ behavior: 'smooth' });
-			});
 		}
 	};
 </script>
@@ -103,13 +121,13 @@
 			animate:flip={{ duration: () => shuffleDuration * Math.random() }}
 			id={artist.id.toString()}
 			bind:this={artistRefs[artist.id]}
-			on:click={() => selectArtist(artist)}
-			on:keypress={() => selectArtist(artist)}
 		>
 			<Artist
 				{artist}
 				selected={artist.id === selectedArtist?.id}
 				loading={selectedArtist?.id === artist.id && loadingArtistCard}
+				onclick={() => selectArtist(artist)}
+				onkeydown={() => selectArtist(artist)}
 			/>
 		</li>
 	{/each}

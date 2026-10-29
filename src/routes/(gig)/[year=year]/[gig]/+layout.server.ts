@@ -1,6 +1,6 @@
-import type { DeezerArtist } from '$lib/deezer';
-import type { LayoutServerLoad } from './$types';
+import type { DeezerArtist } from '#lib/deezer.ts';
 import { error } from '@sveltejs/kit';
+import type { LayoutServerLoad } from './$types';
 
 interface Gig {
 	name: string;
@@ -13,6 +13,6 @@ export const load: LayoutServerLoad = async ({ fetch, params }) => {
 		const gig = (await response.json()) as Gig;
 		return gig;
 	} catch {
-		throw error(404, 'gig not found');
+		error(404, 'gig not found');
 	}
 };

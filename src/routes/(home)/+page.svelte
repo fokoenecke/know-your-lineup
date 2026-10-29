@@ -1,15 +1,15 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 </script>
 
 <ul class="years">
-	{#each Object.entries(data.gigsInYear) as [year, gigs]}
+	{#each Object.entries(data.gigsInYear) as [year, gigs] (year)}
 		<li class="year">
 			{year}
 			<ul class="gigs">
-				{#each gigs as gig}
+				{#each gigs as gig (gig.slug)}
 					<li class="gig">
 						<a href={`/${year}/${gig.slug}`}>{gig.name}</a>
 					</li>

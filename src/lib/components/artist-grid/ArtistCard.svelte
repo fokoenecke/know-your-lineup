@@ -1,28 +1,30 @@
 <script lang="ts">
-	import { type DeezerArtist, getGenreName } from '$lib/deezer';
+	import { type DeezerArtist, getGenreName } from '#lib/deezer.ts';
 	import { fade } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
-	import { createEventDispatcher } from 'svelte';
 
 	import Tracklist from '../tracklist/Tracklist.svelte';
 
-	export let artist: DeezerArtist;
+	interface Props {
+		artist: DeezerArtist;
+		onloaded?: () => void;
+	}
 
-	const dispatch = createEventDispatcher();
+	let { artist, onloaded }: Props = $props();
 
-	let ref: HTMLDivElement;
-	let tracklistLoaded = false;
+	let ref: HTMLDivElement | undefined;
+	let tracklistLoaded = $state(false);
 
 	export function getRef() {
 		return ref;
 	}
 
-	$: tracklistLoaded, run();
-	const run = async () => {
+	$effect(() => {
 		if (tracklistLoaded) {
-			dispatch('loaded');
+			onloaded?.();
 		}
-	};
+	});
+
 	const handleTracklistLoad = () => {
 		tracklistLoaded = true;
 	};
@@ -38,7 +40,7 @@
 		<h1>{artist.name}</h1>
 		{#if artist.genres}
 			<div class="genres">
-				{#each artist.genres as genre}
+				{#each artist.genres as genre (genre)}
 					{#if genre != -1}
 						<span class="genre">{getGenreName(genre)}</span>
 					{/if}
@@ -48,7 +50,7 @@
 	</div>
 
 	<h2 class="popular">Popular Tracks</h2>
-	<Tracklist on:loaded={handleTracklistLoad} {artist} />
+	<Tracklist {artist} onloaded={handleTracklistLoad} />
 </div>
 
 <style>

@@ -1,11 +1,16 @@
+import adapter from '@sveltejs/adapter-vercel';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { defineConfig } from 'vitest/config';
 
-/** @type {import('vite').UserConfig} */
-const config = {
-	plugins: [sveltekit()],
+export default defineConfig({
+	plugins: [
+		sveltekit({
+			adapter: adapter(),
+			preprocess: vitePreprocess()
+		})
+	],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	}
-};
-
-export default config;
+});

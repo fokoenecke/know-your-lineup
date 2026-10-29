@@ -104,7 +104,7 @@ export const searchArtist = async (artistName: string): Promise<DeezerArtist> =>
 	}
 
 	let foundArtist = searchResult.data[0];
-	for (let artist of searchResult.data) {
+	for (const artist of searchResult.data) {
 		if (artist.name.toLowerCase() === artistName.toLowerCase()) {
 			foundArtist = artist;
 			break;

@@ -1,18 +1,17 @@
 <script lang="ts">
-	import { getGenreName } from '$lib/deezer';
-	import { filtering } from '$lib/stores/filtering';
+	import { getGenreName } from '#lib/deezer.ts';
+	import { filtering } from '#lib/stores/filtering.ts';
 
-	import { ChevronsLeft } from 'lucide-svelte';
+	import { ChevronsLeft } from '@lucide/svelte';
 	import { fly } from 'svelte/transition';
 
-	let filterGenres: number[] = [0, 132, 152, 85, 106, 113, 466, 144, 464, 116, 522];
+	let filterGenres: number[] = $state([0, 132, 152, 85, 106, 113, 466, 144, 464, 116, 522]);
 
 	const rotateFilterGenre = () => {
 		const firstGenre = filterGenres.shift();
 		if (typeof firstGenre === 'number') {
 			filterGenres.push(firstGenre);
 		}
-		filterGenres = filterGenres;
 		filtering.setGenre(filterGenres[0]);
 	};
 
@@ -21,7 +20,6 @@
 		if (typeof firstGenre === 'number') {
 			filterGenres.unshift(firstGenre);
 		}
-		filterGenres = filterGenres;
 		filtering.setGenre(filterGenres[0]);
 	};
 </script>
@@ -32,14 +30,20 @@
 	{#key $filtering.genre}
 		<span
 			in:fly={{ y: -20 }}
-			on:keydown={rotateFilterGenre}
-			on:click={rotateFilterGenre}
+			role="button"
+			tabindex="0"
+			onkeydown={rotateFilterGenre}
+			onclick={rotateFilterGenre}
 			class="genre">{getGenreName($filtering.genre)}</span
 		>
 	{/key}
 
-	<span on:keydown={unrotateFilterGenre} on:click={unrotateFilterGenre} class="back"
-		><ChevronsLeft size="20" /></span
+	<span
+		onkeydown={unrotateFilterGenre}
+		onclick={unrotateFilterGenre}
+		role="button"
+		tabindex="0"
+		class="back"><ChevronsLeft size="20" /></span
 	>
 	<span>artists</span>
 </div>

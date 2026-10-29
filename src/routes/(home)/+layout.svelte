@@ -1,6 +1,10 @@
 <script lang="ts">
 	import '../../css/normalize.css';
 	import '../../css/style.css';
+
+	import type { Snippet } from 'svelte';
+
+	let { children }: { children: Snippet } = $props();
 </script>
 
 <div class="grid-container">
@@ -12,10 +16,10 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="center"><slot /></div>
+		<div class="center">{@render children()}</div>
 	</main>
 	<footer class="footer">
-		<div class="center" />
+		<div class="center"></div>
 	</footer>
 </div>
 

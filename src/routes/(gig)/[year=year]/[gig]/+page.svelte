@@ -1,10 +1,10 @@
 <script lang="ts">
-	import ArtistGrid from '$lib/components/artist-grid/ArtistGrid.svelte';
-	import FilterControl from '$lib/components/FilterControl.svelte';
-	import SortControl from '$lib/components/SortControl.svelte';
+	import ArtistGrid from '#lib/components/artist-grid/ArtistGrid.svelte';
+	import FilterControl from '#lib/components/FilterControl.svelte';
+	import SortControl from '#lib/components/SortControl.svelte';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	let { data }: { data: PageData } = $props();
 </script>
 
 <div class="controls">

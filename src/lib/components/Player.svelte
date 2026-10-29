@@ -1,23 +1,25 @@
 <script lang="ts">
-	import { activeTrack } from '$lib/stores/activeTrack';
+	import { activeTrack } from '#lib/stores/activeTrack.ts';
 
-	let player: HTMLAudioElement;
+	let player: HTMLAudioElement | undefined;
 
-	$: $activeTrack, run();
-	const run = async () => {
+	$effect(() => {
+		const track = $activeTrack;
 		if (!player) {
 			return;
 		}
-		const trackIsPlaying = $activeTrack === undefined && !player.paused;
-		if (trackIsPlaying) {
-			player.pause();
-			player.src = '';
-		} else {
-			player.src = $activeTrack?.preview || '';
+		if (track === undefined) {
+			if (!player.paused) {
+				player.pause();
+				player.src = '';
+			}
+		} else if (track.preview) {
+			player.src = track.preview;
 			player.load();
-			player.play();
+			// user activation may have expired by the time the effect runs
+			player.play().catch(() => {});
 		}
-	};
+	});
 </script>
 
 <div class="player">
@@ -31,7 +33,7 @@
 		{/if}
 	</div>
 </div>
-<audio bind:this={player} controls type="audio/mpeg" loop={true} />
+<audio bind:this={player} controls loop={true}></audio>
 
 <style>
 	.player {

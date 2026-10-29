@@ -1,4 +1,4 @@
-import type { DeezerTrack } from '$lib/deezer';
+import type { DeezerTrack } from '#lib/deezer.ts';
 import { writable } from 'svelte/store';
 
 function createActiveTrack() {

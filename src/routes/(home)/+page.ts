@@ -22,16 +22,12 @@ export const load: PageLoad = () => {
 				{ name: 'Hurricane', slug: 'hurricane' },
 				{ name: 'Seepogo', slug: 'seepogo' }
 			],
-			2025: [
-				{name: "Hurricane", slug: 'hurricane'}
-			],
+			2025: [{ name: 'Hurricane', slug: 'hurricane' }],
 			2026: [
-				{name: "Hurricane", slug: 'hurricane'},
-				{name: "Amplifire", slug: 'amplifire'}
-      ],
-      2027: [
-        {name: "Hurricane", slug: 'hurricane'}
-			]
+				{ name: 'Hurricane', slug: 'hurricane' },
+				{ name: 'Amplifire', slug: 'amplifire' }
+			],
+			2027: [{ name: 'Hurricane', slug: 'hurricane' }]
 		}
 	};
 };

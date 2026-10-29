@@ -2,14 +2,16 @@
 	import '../../../../css/normalize.css';
 	import '../../../../css/style.css';
 
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
+
+	import type { Snippet } from 'svelte';
 
 	import type { PageData } from './$types';
 
-	import Player from '$lib/components/Player.svelte';
-	import { filtering } from '$lib/stores/filtering';
+	import Player from '#lib/components/Player.svelte';
+	import { filtering } from '#lib/stores/filtering.ts';
 
-	export let data: PageData;
+	let { data, children }: { data: PageData; children: Snippet } = $props();
 </script>
 
 <div class="grid-container">
@@ -17,15 +19,15 @@
 		<div class="center header-container">
 			<div class="title">
 				<a href="/" class="name">know your lineup</a>
-				<span class="gig">{$page.params.year} / {data.name}</span>
+				<span class="gig">{page.params.year} / {data.name}</span>
 			</div>
 			<div class="search">
-			    <input type="text" on:input={(e) => filtering.setName(e.target.value)}>
+				<input type="text" oninput={(e) => filtering.setName(e.currentTarget.value)} />
 			</div>
 		</div>
 	</header>
 	<main class="main">
-		<div class="center"><slot /></div>
+		<div class="center">{@render children()}</div>
 	</main>
 	<footer class="footer">
 		<div class="center">
@@ -84,18 +86,18 @@
 	}
 
 	.header-container {
-        display: flex;
-        justify-content: space-between;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.search {
-        display: flex;
-        flex: 1;
-        justify-content: end;
+		display: flex;
+		flex: 1;
+		justify-content: end;
 	}
 
 	.search input {
-	    margin: 1em;
+		margin: 1em;
 	}
 
 	footer {

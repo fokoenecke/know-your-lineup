@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { sorting, type SortingAttribute } from '$lib/stores/sorting';
+	import { sorting, type SortingAttribute } from '#lib/stores/sorting.ts';
 
 	const toggleSortDirection = () => {
 		sorting.setDirection($sorting.direction === 'ascending' ? 'descending' : 'ascending');
 	};
 
-	let sortAttributes: SortingAttribute[] = ['name', 'nb_fan'];
-	let sortLabels = {
+	let sortAttributes: SortingAttribute[] = $state(['name', 'nb_fan']);
+	const sortLabels = {
 		name: { name: 'name', ascending: 'a to z', descending: 'z to a' },
 		nb_fan: { name: 'fans', ascending: 'low to high', descending: 'high to low' }
 	} as {
@@ -18,17 +18,28 @@
 		if (firstAttribute) {
 			sortAttributes.push(firstAttribute);
 		}
-		sortAttributes = sortAttributes;
 		sorting.setAttribute(sortAttributes[0]);
 	};
 </script>
 
 <div class="sort">
 	<span class="label">sorted by</span>
-	<span class="attribute" on:keydown={rotateSortAttribute} on:click={rotateSortAttribute}>
+	<span
+		class="attribute"
+		role="button"
+		tabindex="0"
+		onkeydown={rotateSortAttribute}
+		onclick={rotateSortAttribute}
+	>
 		{sortLabels[$sorting.attribute].name}
 	</span>
-	<span class="direction" on:keydown={toggleSortDirection} on:click={toggleSortDirection}>
+	<span
+		class="direction"
+		role="button"
+		tabindex="0"
+		onkeydown={toggleSortDirection}
+		onclick={toggleSortDirection}
+	>
 		{sortLabels[$sorting.attribute][$sorting.direction]}
 	</span>
 </div>
