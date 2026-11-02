@@ -96,7 +96,7 @@
 		text-overflow: ellipsis;
 
 		font-size: small;
-		font-weight: bold;
+		font-weight: 600;
 		text-align: center;
 	}
 

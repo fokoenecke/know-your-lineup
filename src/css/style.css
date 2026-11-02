@@ -1,4 +1,5 @@
 @import '@fontsource/blinker';
+@import '@fontsource/blinker/600.css';
 body {
 	font-family: 'Blinker', sans-serif;
 	color: #101010;
