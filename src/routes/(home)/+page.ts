@@ -27,7 +27,10 @@ export const load: PageLoad = () => {
 				{ name: 'Hurricane', slug: 'hurricane' },
 				{ name: 'Amplifire', slug: 'amplifire' }
 			],
-			2027: [{ name: 'Hurricane', slug: 'hurricane' }]
+			2027: [
+				{ name: 'Hurricane', slug: 'hurricane' },
+				{ name: 'Amplifire', slug: 'amplifire' }
+			]
 		}
 	};
 };
